@@ -1,0 +1,2239 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body{
+	font: 16px 'Montserrat-Regular',sans-serif;
+	background: #fff;
+	color: #000000;
+}
+
+li{list-style-type: none;}
+span, a{	
+	text-decoration: none;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;	
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6, p{
+	font-weight: normal;
+	line-height: 1;
+}
+input, button, textarea{
+	outline: none;
+	border: none;
+	resize: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {-moz-appearance: textfield;}
+input[type="search"]::-webkit-search-cancel-button {-webkit-appearance: none;}
+input[type="submit"]{
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;	
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	cursor: pointer;
+	
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			appearance: none;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+	font: 18px "Montserrat-Regular";
+	color: #808080;
+	opacity: 1;
+}
+input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	font: 18px "Montserrat-Regular";
+	color: #808080;
+	opacity: 1;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+	font: 18px "Montserrat-Regular";
+	color: #808080;
+	opacity: 1;
+}
+input::-o-placeholder { /* Opera */
+	font: 18px "Montserrat-Regular";
+	color: #808080;
+	opacity: 1;
+}
+
+
+textarea::-webkit-input-placeholder { /* WebKit browsers */
+	font: 18px "Montserrat-Regular";
+	color: #808080;
+	opacity: 1;
+}
+
+@media screen and (max-width: 1006px){
+	input::-webkit-input-placeholder { /* WebKit browsers */
+		font: 16px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+	input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		font: 16px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+	input:-ms-input-placeholder { /* Internet Explorer 10+ */
+		font: 16px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+	input::-o-placeholder { /* Opera */
+		font: 16px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+
+	textarea::-webkit-input-placeholder { /* WebKit browsers */
+		font: 16px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 767px){
+	input::-webkit-input-placeholder { /* WebKit browsers */
+		font: 12px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+	input::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		font: 12px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+	input:-ms-input-placeholder { /* Internet Explorer 10+ */
+		font: 12px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+	input::-o-placeholder { /* Opera */
+		font: 12px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+
+	textarea::-webkit-input-placeholder { /* WebKit browsers */
+		font: 12px "Montserrat-Regular";
+		color: #808080;
+		opacity: 1;
+	}
+}
+
+
+/* ----- шрифты ----- */
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Medium';
+	src: url('../fonts/Montserrat-Medium.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Italic';
+	src: url('../fonts/Montserrat-Italic.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../fonts/Montserrat-Light.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: url('../fonts/Montserrat-SemiBold.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat-ExtraBold';
+	src: url('../fonts/Montserrat-ExtraBold.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+/* /----- шрифты ----- */
+
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.container{
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 1007px;
+}
+@media screen and (max-width: 1006px){
+	.container{width: 768px;}
+}
+@media screen and (max-width: 767px){
+	.container{width: 480px;}
+}
+@media screen and (max-width: 479px){
+	.container{width: 320px;}
+}
+
+.h1{
+	font: 40px/49px "Montserrat-SemiBold";
+	color: #3E67B6;;
+}
+@media screen and (max-width: 1006px){
+	.h1{font: 35px/43px "Montserrat-SemiBold";}
+}
+@media screen and (max-width: 767px){
+	.h1{font: 20px/24px "Montserrat-SemiBold";}
+}
+@media screen and (max-width: 479px){
+	.h1{font: 12px/17px "Montserrat-SemiBold";}
+}
+
+.wr-h2{
+	position: relative;
+	margin-left: 30px;
+}
+.h2{
+	position: relative;
+	font-size: 70px;
+	line-height: 85px;
+	color: #000000;
+}
+.h2-dop{
+	position: absolute;
+    display: block;
+    top: -78px;
+    left: -28px;
+    width: 100%;
+    height: 138px;
+    font: 138px/168px "Montserrat-ExtraBold";
+    color: #E9EEFF;
+    z-index: -1;
+}
+@media screen and (max-width: 1006px){
+	.h2{
+		font-size: 60px;
+		line-height: 73px;
+	}
+	.h2-dop{
+		top: -57px;
+		font-size: 104px;
+		line-height: 134px;
+	}
+}
+@media screen and (max-width: 767px){
+	.h2{
+		font-size: 30px;
+		line-height: 37px;
+	}
+	.h2-dop{
+		top: -31px;
+		left: -18px;
+    	width: 100%;
+		font-size: 58px;
+		line-height: 71px;
+	}
+}
+
+.order-button{
+	width: 270px;
+    height: 60px;
+    font: 18px/60px "Montserrat-SemiBold";
+    text-align: center;
+    color: #ffffff;
+    border-radius: 30px;
+    background: #3E67B6;
+    -webkit-transition: all 0s !important;
+    -o-transition: all 0s !important;
+    transition: all 0s !important;
+}
+.order-button:hover{background: #5978B6;}
+@media screen and (max-width: 767px){
+	.order-button{
+		width: 190px;
+	    height: 43px;
+	    font: 14px/43px "Montserrat-SemiBold";
+	}
+}
+@media screen and (max-width: 479px){
+	.order-button{
+		display: block;
+		margin: 0px auto 0px;
+	}
+}
+
+.bg{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	z-index: 4;
+}
+
+.wr-crumbs{margin-top: 20px;}
+.wr-crumbs a{
+	position: relative;
+	display: inline-block;
+	margin-right: 13px;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 16px;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.wr-crumbs a:hover{border-bottom: 1px solid transparent;}
+.wr-crumbs a:after{
+	position: absolute;
+	top: -1px;
+	right: -18px;
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/crumbs-arrow.png) no-repeat center;
+}
+.wr-crumbs p{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+@media screen and (max-width: 767px){
+	.wr-crumbs{display: none;}
+}
+
+.wr-choose-specialization{margin-top: 65px;}
+.choose-specialization{position: relative;}
+.choose-specialization,
+.choose-specialization__text{
+	display: inline-block;
+	vertical-align: middle;
+}
+.choose-specialization__text{
+	margin-right: 20px;
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #000000;
+}
+.choose-specialization__select-selected{
+	padding: 0px 50px 0px 20px;
+    width: 348px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    background: #FFFFFF url(../images/select.png) no-repeat 310px 7px;
+    border: 2px solid #3E67B6;
+    border-radius: 30px;
+    color: #000000;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.choose-specialization__select-list{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	display: none;
+	padding: 10px 10px;
+	width: 348px;
+	border: 2px solid #3E67B6;
+	background: #E9EEFF;
+	z-index: 1;
+}
+.choose-specialization.open .choose-specialization__select-list{display: block;}
+.choose-specialization__select-name{
+	display: block;
+	padding: 0px 20px;
+	width: 328px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 47px;
+    text-align: left;
+    color: #000000;
+    border: 2px solid #3E67B6;
+    border-radius: 30px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.choose-specialization__select-name + .choose-specialization__select-name{margin-top: 10px;}
+.choose-specialization__select-name.active,
+.choose-specialization__select-name:hover{background: #E9EEFF;}
+@media screen and (max-width: 1006px){
+	.wr-choose-specialization {margin-top: 33px;}
+	.choose-specialization__text{font: 16px/20px "Montserrat-SemiBold";}
+	.choose-specialization__select-selected{
+		font-size: 16px;
+    	line-height: 20px;
+	}
+	.choose-specialization__select-name{font-size: 16px;}
+}
+@media screen and (max-width: 767px){
+	.wr-choose-specialization {margin-top: 22px;}
+	.choose-specialization__text{
+		margin-right: 10px;
+		font: 14px/20px "Montserrat-SemiBold";
+	}
+	.choose-specialization__select-selected{
+		padding: 0px 27px 0px 10px;
+	    width: 230px;
+	    height: 30px;
+		font-size: 12px;
+    	line-height: 20px;
+    	background: #FFFFFE url(../images/select.png) no-repeat 208px 5px;
+	    background-size: 11px;
+	    border: 1px solid #3E67B6;
+	}
+	.choose-specialization__select-list{
+		top: 40px;
+	    padding: 10px 10px;
+	    width: 230px;
+	    border: 1px solid #3E67B6;
+	}
+	.choose-specialization__select-name{
+		padding: 0px 10px;
+	    width: 100%;
+	    height: 30px;
+		font-size: 12px;
+		line-height: 28px;
+		border: 1px solid #3E67B6;
+	}
+}
+@media screen and (max-width: 479px){
+	.choose-specialization,
+	.choose-specialization__text{display: block;}
+	.choose-specialization__text{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+}
+
+/* ----- header ----- */
+.header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 10px 0px;
+	width: 100%;
+	text-align: center;
+	background: #ffffff;
+	border-bottom: 1px solid #E9EFFF;
+	z-index: 2;
+}
+.header__logo{
+	float: left;
+	display: block;
+	width: 163px;
+	height: 80px;
+	background: url(../images/logo.png) no-repeat center;
+}
+.header ul{
+	display: inline-block;
+    margin-top: 28px;
+}
+.header ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+.header ul li + li{margin-left: 25px;}
+.header ul a{
+	font: 16.3px "Montserrat-SemiBold";
+	color: #000000;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.header ul li.active a,
+.header ul a:hover{color: #3E67B6;}
+.header__content-right{
+	float: right;
+	margin-top: 2px;
+	text-align: right;
+}
+.header__number{
+	font: 30px/37px "Montserrat-SemiBold";
+	color: #3E67B6;
+}
+.header__time{
+	font-size: 12px;
+	line-height: 17px;
+	color: #000000;
+}
+.header__menu{display: none;}
+@media screen and (max-width: 1006px){
+	.header__logo {
+	    width: 115px;
+	    height: 58px;
+	    background: url(../images/logo.png) no-repeat center;
+	    background-size: 100%;
+	}
+	.header__time{display: none;}
+	.header__content-right{margin-top: 0px;}
+	.header__number{
+		display: inline-block;
+		vertical-align: top;
+		font: 22px/30px "Montserrat-SemiBold";
+	}
+	.header__number{margin-top: 14px;}
+	.header__menu{
+		display: inline-block;
+	    margin-top: 14px;
+	    margin-left: 30px;
+	    width: 36px;
+	    height: 28px;
+	    vertical-align: top;
+	    background: url(../images/menu.svg) no-repeat center;
+	    cursor: pointer;
+	    -webkit-transition: all 0s;
+	    -o-transition: all 0s;
+	    transition: all 0s;
+	}
+	.header ul{
+		position: absolute;
+	    top: 50px;
+	    left: 0px;
+	    display: none;
+	    padding: 20px 0px;
+	    width: 100%;
+	    background: #E9EEFF;
+	    border: 1px solid #3E67B6;
+	    border-radius: 3px;
+	}
+	.header ul li{display: block;}
+	.header ul li + li{margin: 10px 0px 0px 0px;}
+	.header ul a{
+		display: block;
+		margin: 0px auto 0px;
+		padding: 0px 10px;
+		width: 738px;
+		height: 35px;
+		font: 14px/32px "Montserrat-Regular";
+		border: 1px solid #3E67B6;
+		border-radius: 3px;
+		background: #ffffff;
+	}
+	.header ul a:hover{
+		background: #E9EEFF;
+		color: #000000;
+	}
+	.header.active ul{display: block;}
+	.header.active .header__menu{background: url(../images/close-menu.svg) no-repeat center;}
+}
+@media screen and (max-width: 767px){
+	.header__logo{
+		width: 90px;
+    	height: 44px;
+	}
+	.header__number{
+		margin-top: 11px;
+		font: 17px/20px "Montserrat-SemiBold";
+	}
+	.header__menu{margin-top: 8px;}
+	.header ul{
+		top: 36px;
+		padding: 15px 0px;
+	}
+	.header ul a{
+		width: 450px;
+	    height: 30px;
+	    font: 12px/28px "Montserrat-Regular";
+	}
+}
+@media screen and (max-width: 479px){
+	.header{padding: 6px 0px;}
+	.header__logo{
+		width: 67px;
+    	height: 35px;
+	}
+	.header__number{
+		margin-top: 8px;
+    	font: 12px/20px "Montserrat-SemiBold";
+	}
+	.header__menu{
+		margin-top: 4px;
+		margin-left: 5px;
+	}
+	.header ul{top: 19px;}
+	.header ul a{width: 290px;}
+}
+/* /----- header ----- */
+
+
+/* ----- main-screen ----- */
+.main-screen{
+	margin-top: 100px;
+	padding: 20px 0px 40px;
+	height: 590px;
+	background: #E9EEFF url(../images/main-screen1.jpg) no-repeat center;
+}
+.main-screen__wr-text{padding: 0px 30px;}
+.main-screen .h1{
+	margin-bottom: 30px;
+	width: 750px;
+}
+.main-screen__free-consultation{
+	margin-bottom: 35px;
+    width: 450px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.main-screen__free-consultation a{
+	border-bottom: 1px solid #3E67B6;
+	color: #3E67B6;
+	cursor: pointer;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.main-screen__free-consultation a:hover{border-bottom: 1px solid transparent;}
+.main-screen__year{
+	margin-top: 40px;
+	width: 140px;
+}
+.main-screen__text{
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+@media screen and (max-width: 1006px){
+	.main-screen{
+		margin-top: 79px;
+	    padding: 20px 0px 40px;
+	    height: 520px;
+	    background: #E9EEFF url(../images/main-screen1-tablet.jpg) no-repeat center;
+	}
+	.main-screen__wr-text{padding: 0px;}
+	.main-screen .h1{
+		margin-bottom: 30px;
+		width: 565px;
+	}
+	.main-screen__free-consultation{
+		margin-bottom: 25px;
+		width: 360px;
+    	font-size: 20px;
+	}
+	.main-screen__year{margin-top: 13px;}
+}
+@media screen and (max-width: 767px){
+	.main-screen {
+		margin-top: 65px;
+		padding: 35px 0px 26px;
+		height: 300px;
+	    background: #E9EEFF url(../images/main-screen1-pred-mob.jpg) no-repeat center;
+	}
+	.main-screen .h1 {
+	    margin-bottom: 50px;
+	    width: 330px;
+	}
+	.main-screen__year{display: none;}
+	.main-screen__free-consultation{
+		width: 270px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+}
+@media screen and (max-width: 479px){
+	.main-screen{
+		margin-top: 48px;
+		padding: 30px 0px 40px;
+		height: 200px;
+		background: #E9EEFF url(../images/main-screen1-mob.jpg) no-repeat center;
+	}
+	.main-screen__free-consultation{display: none;}
+	.main-screen .h1{
+		width: 190px;
+	}
+}
+/* /----- main-screen ----- */
+
+
+/* ----- about-us ----- */
+.about-us{padding: 125px 0px 30px;}
+.about-us .h2{margin-bottom: 50px;}
+.about-us__content-left{
+	float: left;
+	margin-top: 20px;
+	width: 530px;
+}
+.about-us__item{
+	float: left;
+	width: 237px;
+	text-align: center;
+}
+.about-us__item:nth-child(2n+2){float: right;}
+.about-us__item + .about-us__item + .about-us__item{margin-top: 50px;}
+.about-us__item img{margin-bottom: 26px;}
+.about-us__item-text{
+	font: 16px/20px "Montserrat-SemiBold";
+	color: #000000;
+}
+.about-us__content-right{
+	float: right;
+	width: 400px;
+}
+.about-us__content-right-text{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.about-us__content-right-text + .about-us__content-right-text{margin-top: 10px;}
+.about-us .order-button{
+	display: block;
+	margin: 55px auto 0px;
+}
+.main-about-us{padding: 185px 0px 70px;}
+.main-about-us__title{
+	margin-bottom: 15px;
+	font: 30px/45px "Montserrat-SemiBold";
+	color: #3E67B6;
+}
+.about-clinic{margin-top: 50px;}
+.about-clinic__wr-text{
+	float: left;
+	width: 465px;
+}
+.about-clinic__text{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.about-clinic__text + .about-clinic__text{margin-top: 10px;}
+.about-clinic__wr-image{
+	float: right;
+	width: 476px;
+}
+.about-clinic__wr-image img{max-width: 100%;}
+.main-about-us__advantages{margin-top: 60px;}
+.main-about-us__advantages ul{width: 740px;}
+.main-about-us__advantages li{
+	padding-left: 40px;
+	font-size: 16px;
+	line-height: 20px;
+	background: url(../images/arrow-li.png) no-repeat center left;
+}
+.main-about-us__advantages li + li{margin-top: 20px;}
+.main-about-us__photo{margin-top: 60px;}
+.main-about-us__photo img + img + img{margin-top: 20px;}
+.main-about-us__photo img:nth-child(2n+1){float: left;}
+.main-about-us__photo img:nth-child(2n+2){float: right;}
+.licenses{margin-top: 60px;}
+.licenses .fancybox{
+	display: inline-block;
+	margin-right: 16px;
+	vertical-align: top;
+}
+.licenses .fancybox + .fancybox + .fancybox + .fancybox + .fancybox{margin-top: 20px;}
+.licenses .fancybox:nth-child(4n+4){
+	float: right;
+	margin-right: 0px;
+}
+.licenses .fancybox img{display: block;}
+.main-about-us__text{
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+@media screen and (max-width: 1006px){
+	.about-us {padding: 110px 0px 30px;}
+	.about-us .h2 {margin-bottom: 55px;}
+	.about-us__item-text{font: 14px/17px "Montserrat-SemiBold";}
+	.about-us__item img{margin-bottom: 20px;}
+	.about-us__content-left{
+		margin-top: 0px;
+		width: 420px;
+	}
+	.about-us__item{width: 200px;}
+	.about-us__item-text{font: 13px/17px "Montserrat-SemiBold";}
+	.about-us__content-right{
+		margin-top: 65px;
+    	width: 300px;
+	}
+	.about-us__content-right-text{
+		font-size: 14px;
+    	line-height: 24px;
+	}
+	.about-us__content-right-text + .about-us__content-right-text{display: none;}
+	.main-about-us{padding: 145px 0px 45px;}
+	.main-about-us__title {
+	    margin-bottom: 15px;
+	    font: 25px/37px "Montserrat-SemiBold";
+	}
+	.about-clinic__wr-text {width: 380px;}
+	.about-clinic__text {
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+	.about-clinic__wr-image {
+	    margin-top: 10px;
+	    width: 340px;
+	}
+	.main-about-us__advantages ul {width: 100%;}
+	.main-about-us__advantages li{
+		font-size: 14px;
+    	line-height: 17px;
+	}
+	.main-about-us__photo img{width: 359px;}
+	.licenses .fancybox:nth-child(4n+4) {
+	    float: none;
+	    margin-right: 16px;
+	}
+	.licenses .fancybox:nth-child(3n+3) {
+	    float: right;
+	    margin-right: 0px;
+	}
+	.licenses .fancybox img{width: 232px;}
+	.licenses .fancybox + .fancybox + .fancybox + .fancybox,
+	.licenses .fancybox + .fancybox + .fancybox + .fancybox + .fancybox{margin-top: 20px;}
+	.main-about-us__text{
+		font-size: 14px;
+    	line-height: 21px;
+	}
+}
+@media screen and (max-width: 767px){
+	.about-us {padding: 60px 0px 0px;}
+	.about-us .h2{margin-bottom: 30px;}
+	.about-us__content-left{width: 100%;}
+	.about-us__content-right{display: none;}
+	.about-us__item + .about-us__item + .about-us__item{margin-top: 30px;}
+	.about-us__item img{
+		margin-bottom: 5px;
+    	width: 70px;
+    	height: 70px;
+	}
+	.about-us__item-text{font: 12px/15px "Montserrat-SemiBold";}
+	.about-us__content-right-text{display: none;}
+	.about-us .order-button{margin: 40px auto 0px;}
+	.main-about-us{padding: 110px 0px 30px;}
+	.main-about-us .h2-dop{left: -31px;}
+	.main-about-us__title {
+	    margin-bottom: 10px;
+	    font: 20px/30px "Montserrat-SemiBold";
+	}
+	.about-clinic {margin-top: 17px;}
+	.about-clinic__wr-text{
+		float: none;
+		width: 100%;
+	}
+	.about-clinic__text {
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+	.about-clinic__wr-image{
+		float: none;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.main-about-us__advantages {margin-top: 30px;}
+	.main-about-us__advantages li {
+	    font-size: 13px;
+	    line-height: 17px;
+	}
+	.licenses {
+		padding-bottom: 55px;
+		margin-top: 30px;
+	}
+	.licenses .fancybox:nth-child(4n+4),
+	.licenses .fancybox:nth-child(3n+3){
+		float: left;
+		margin: 0px;
+	}
+	.licenses .fancybox + .fancybox + .fancybox + .fancybox,
+	.licenses .fancybox + .fancybox + .fancybox + .fancybox + .fancybox{margin-top: 0px;}
+	.licenses .fancybox{margin: 0px 5px !important;}
+	.licenses .fancybox img{width: 100%;}
+	.licenses .fancybox.slick-cloned{display: none;}
+	.licenses .slick-prev{
+		left: 170px;
+		bottom: -245px;
+	}
+	.licenses .slick-next{
+		right: 170px;
+		bottom: -245px;
+	}
+	.main-about-us__text{
+		margin-bottom: 15px;
+		font-size: 12px;
+    	line-height: 18px;
+	}
+	.main-about-us__photo{
+		margin-top: 35px;
+		padding-bottom: 55px;
+	}
+	.main-about-us__photo .slick-prev{
+		left: 170px;
+		bottom: -245px;
+	}
+	.main-about-us__photo .slick-next{
+		right: 170px;
+		bottom: -245px;
+	}
+	.main-about-us__photo img + img + img{margin-top: 0px;}
+}
+@media screen and (max-width: 479px){
+	.about-us {padding: 45px 0px 0px;}
+	.about-us .h2 {margin-bottom: 20px;}
+	.about-us__item{
+		width: 140px;
+    	min-height: 124px;
+	}
+	.about-us__item + .about-us__item + .about-us__item{margin-top: 20px;}
+	.about-us__item-text{font: 11px/15px "Montserrat-SemiBold";}
+	.about-us .order-button {margin: 25px auto 0px;}
+	.main-about-us{padding: 90px 0px 40px;}
+	.main-about-us__photo .slick-prev{
+		left: 90px;
+		bottom: -180px;
+	}
+	.main-about-us__photo .slick-next{
+		right: 90px;
+		bottom: -180px;
+	}
+	.licenses .slick-prev{
+		left: 90px;
+		bottom: -180px;
+	}
+	.licenses .slick-next{
+		right: 90px;
+		bottom: -180px;
+	}
+}
+/* /----- about-us ----- */
+
+
+/* ----- our-doctors ----- */
+.main-our-doctors{padding: 185px 0px 40px;}
+.our-doctors{padding: 125px 0px 0px;}
+.main-our-doctors .our-doctors{padding: 0px;}
+.main-our-doctors .h2-dop-mob{display: none;}
+.our-doctors__slider{margin-bottom: 80px !important;}
+.our-doctors__wr-slider{
+	margin-top: 25px;
+    padding: 70px 0px 70px;
+    text-align: center;
+	background: url(../images/our-doctors.jpg) no-repeat center;
+}
+.main-our-doctors .our-doctors__wr-slider{
+	margin-top: 0px;
+	padding: 24px 0px 0px;
+	background: none;
+}
+.our-doctors .slide-item,
+.our-doctors .slide{
+	margin: 0px 8px;
+    padding: 10px 10px 15px;
+    min-height: 380px;
+    text-align: left;
+    border: 2px solid #3E67B6;
+    background: #ffffff;
+}
+.our-doctors .slide-item{
+	display: inline-block;
+	margin: 0px 5px;
+	width: 229px;
+	vertical-align: top;
+}
+.main-our-doctors .our-doctors .slide-item{margin-top: 16px;}
+.our-doctors .slide-item .wr-image,
+.our-doctors .slide .wr-image{
+	height: 240px;
+	background: #E9EEFF;
+}
+.our-doctors__wr-text{
+	position: relative;
+	padding-top: 32px;
+}
+.our-doctors__name{
+	font: 16px/20px "Montserrat-SemiBold";
+	color: #000000;
+}
+.our-doctors__profession{
+	margin-top: 5px;
+	font: 14px/17px "Montserrat-Italic";
+	color: #000000;
+}
+.our-doctors__year{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-top: 6px;
+    padding-right: 5px;
+    width: 91px;
+    height: 52px;
+    text-align: right;
+    background: url(../images/decor1.png) no-repeat center;
+}
+.our-doctors__year-name{
+	font-size: 30px;
+	line-height: 23px;
+	color: #3E67B6;
+}
+.our-doctors__year-text{
+	font-size: 20px;
+	line-height: 20px;
+	color: #3E67B6;
+}
+.our-doctors .slick-dots{bottom: -48px;}
+.our-doctors .slick-dots li button::before{display: none;}
+.our-doctors .slick-dots li{
+	margin: 0 10px;
+	width: 10px;
+	height: 10px;
+	vertical-align: middle;
+	background: #E9EEFF;
+	border: 1px solid #3E67B6;
+	border-radius: 50%;
+}
+.our-doctors .slick-dots li.slick-active{
+	width: 15px;
+	height: 15px;
+	border: none;
+	background: #3E67B6;
+}
+.our-doctors .slick-dots li button{
+	width: auto;
+	height: auto;
+}
+.our-doctors .slick-prev{
+	top: 399px;
+    left: 50%;
+    z-index: 1;
+}
+.our-doctors .slick-next{
+	top: 399px;
+    right: 50%;
+    z-index: 1;
+}
+.our-doctors .order-button{
+	display: block;
+	margin: 0px auto;
+}
+.main-doctors{padding: 150px 0px 50px;}
+.main-doctors__wr-image{
+	float: left;
+	width: 332px;
+}
+.main-doctors__wr-image img{
+	display: block;
+	max-width: 100%;
+}
+.main-doctors__content-right{
+	float: right;
+	text-align: left;
+	width: 580px;
+}
+.main-doctors__name{
+	margin-bottom: 5px;
+	font: 30px/37px "Montserrat-SemiBold";
+	color: #3E67B6;
+}
+.main-doctors__prof{
+	font: 16px/20px "Montserrat-Italic";
+	color: #000000;
+}
+.main-doctors form{margin-bottom: 40px;}
+.main-doctors .exact-cost__text{
+	margin: 25px 0px;
+	width: 100%;
+	text-align: left;
+	color: #3E67B6;
+}
+.main-doctors .exact-cost__wr-item{text-align: left;}
+.main-doctors .exact-cost__item{
+	margin: 0px 0px;
+    width: 260px;
+}
+.main-doctors .exact-cost__item + .exact-cost__item{margin-left: 20px;}
+.main-doctors .exact-cost__input-submit{margin: 30px 0px 0px;}
+.main-doctors .exact-cost__info{text-align: left;}
+.main-doctors__number{
+	width: 435px;
+	font: 18px/22px "Montserrat-SemiBold";
+    text-align: left;
+    color: #3E67B6;
+}
+.education-certificates .main-doctors__number{display: none;}
+.main-doctors__number a{color: #000000;}
+.education-certificates{margin-top: 20px;}
+.education-certificates__wr-item{display: none;}
+.education-certificates.active .education-certificates__wr-item{display: block;}
+.education-certificates__text{
+	display: inline-block;
+	margin-bottom: 20px;
+    padding-right: 25px;
+    font: 18px/22px "Montserrat-SemiBold";
+    color: #3E67B6;
+    background: url(../images/education-certificates-arrow.png) no-repeat right 8px;
+    cursor: pointer;
+}
+.education-certificates__text.active{
+	color: #000000;
+	background: url(../images/education-certificates-arrow-dop.png) no-repeat right 7px;
+}
+.education-certificates__text span{
+	border-bottom: 1px solid #3E67B6;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.education-certificates__text.active span{border-bottom: 1px solid transparent;}
+.education-certificates__wr-item .fancybox + .fancybox + .fancybox{margin-top: 25px;}
+.education-certificates__wr-item .fancybox:nth-child(2n+1){float: left;}
+.education-certificates__wr-item .fancybox:nth-child(2n+2){float: right;}
+.education-certificates__wr-item .fancybox img{display: block;}
+@media screen and (max-width: 1006px){
+	.main-our-doctors {padding: 145px 0px 40px;}
+	.our-doctors {padding: 90px 0px 0px;}
+	.main-our-doctors .our-doctors__wr-slider{padding: 20px 0px 0px;}
+	.main-doctors {padding: 110px 0px 15px;}
+	.main-doctors__wr-image {width: 272px;}
+	.main-doctors__content-right{width: 430px;}
+	.main-doctors form{margin-bottom: 0px;}
+	.main-doctors__name{
+		margin-bottom: 5px;
+    	font: 22px/30px "Montserrat-SemiBold";
+	}
+	.main-doctors__prof{font: 13px/17px "Montserrat-Italic";}
+	.main-doctors .exact-cost__text{margin: 15px 0px;}
+	.main-doctors .exact-cost__item + .exact-cost__item {
+	    margin-left: 0px;
+	    margin-top: 15px;
+	}
+	.main-doctors .exact-cost__input-submit {margin: 20px 0px 0px;}
+	.main-doctors__number{
+		display: none;
+		margin-bottom: 15px;
+		font: 16px/20px "Montserrat-SemiBold";
+	}
+	.education-certificates .main-doctors__number{display: block;}
+	.education-certificates__text{
+		font: 16px/20px "Montserrat-SemiBold";
+		background: url(../images/education-certificates-arrow.png) no-repeat right 6px;
+	}
+	.education-certificates__text.active{background: url(../images/education-certificates-arrow-dop.png) no-repeat right 5px;}
+	.education-certificates__wr-item .fancybox img{width: 360px;}
+}
+@media screen and (max-width: 767px){
+	.main-our-doctors{padding: 110px 0px 40px;}
+	.main-our-doctors .h2-dop{left: -34px;}
+	.our-doctors{padding: 55px 0px 0px;}
+	.our-doctors__wr-slider{
+		margin-top: 15px;
+    	padding: 35px 0px 35px;
+	}
+	.our-doctors .slide{min-height: 357px;}
+	.our-doctors .slide .wr-image{height: 217px;}
+	.our-doctors .slide .wr-image img{width: 100%;}
+	.our-doctors__name{font: 14px/20px "Montserrat-SemiBold";}
+	.our-doctors__profession{font: 13px/17px "Montserrat-Italic";}
+	.our-doctors__slider{margin-bottom: 85px !important;}
+	.our-doctors .slick-prev{
+		top: 375px;
+		left: 175px;
+	}
+	.our-doctors .slick-next{
+		top: 375px;
+		right: 175px;
+	}
+	.main-our-doctors .our-doctors__wr-slider{padding: 5px 0px 0px;}
+	.main-our-doctors .slide-item{width: 210px;}
+	.main-our-doctors .slide-item .wr-image img{
+		display: block;
+		width: 100%;
+	}
+	.our-doctors .slide-item .wr-image{height: 218px;}
+	.main-doctors {padding: 85px 0px 15px;}
+	.popup-reviews__back{margin-bottom: 20px;}
+	.main-doctors__wr-image {
+		float: none;
+	    margin: 0px auto;
+	    width: 200px;
+	}
+	.main-doctors__content-right {
+		float: none;
+	    width: 100%;
+	    margin-top: 20px;
+	}
+	.main-doctors__name {
+	    margin-bottom: 0px;
+	    font: 18px/30px "Montserrat-SemiBold";
+	}
+	.main-doctors__prof {font: 13px/16px "Montserrat-Italic";}
+	.main-doctors .exact-cost__text {margin: 15px 0px;}
+	.education-certificates {margin-top: 18px;}
+	.education-certificates .main-doctors__number{
+		width: 420px;
+		font: 14px/20px "Montserrat-SemiBold";
+	}
+	.education-certificates__text {font: 14px/20px "Montserrat-SemiBold";}
+	.education-certificates__wr-item .fancybox + .fancybox + .fancybox {margin-top: 20px;}
+	.education-certificates__wr-item .fancybox img {width: 218px;}
+}
+@media screen and (max-width: 479px){
+	.our-doctors {padding: 55px 0px 0px;}
+	.main-our-doctors {padding: 90px 0px 40px;}
+	.main-our-doctors .h2-dop{display: none;}
+	.main-our-doctors .h2-dop-mob{display: block;}
+	.our-doctors__wr-slider {
+	    margin-top: 15px;
+	    padding: 25px 0px 35px;
+	}
+	.our-doctors__slider{
+    	margin: 0px auto;
+		width: 245px;
+	}
+	.our-doctors .slide {min-height: 380px;}
+	.our-doctors .slide .wr-image{height: 240px;}
+	.our-doctors .slick-prev{
+		top: 401px;
+    	left: 70px;
+	}
+	.our-doctors .slick-next{
+		top: 401px;
+    	right: 70px;
+	}
+	.main-our-doctors .our-doctors .slide-item{min-height: auto;}
+	.main-doctors{padding: 75px 0px 40px;}
+	.education-certificates,
+	.main-doctors .popup-reviews__back{display: none;}
+	.main-doctors__name{font: 16px/24px "Montserrat-SemiBold";}
+}
+/* /----- our-doctors ----- */
+
+
+/* ----- service ----- */
+.service{padding: 150px 0px 120px;}
+.service .h2{margin-bottom: 75px;}
+.service__item{
+	display: inline-block;
+	margin-right: 15px;
+	width: 230px;
+	text-align: center;
+	vertical-align: top;
+}
+.service__item:last-child{
+	float: right;
+	margin-right: 0px;
+}
+.service__item img{margin-bottom: 35px;}
+.service__wr-text{
+	padding: 30px 15px 25px;
+	background: #E9EEFF;
+}
+.service__wr-txt{min-height: 242px;}
+.service__name{
+	margin-bottom: 15px;
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #000000;
+}
+.service__text{
+	font-size: 16px;
+	line-height: 20px;
+	text-align: left;
+	color: #000000;
+}
+.service__button{
+	display: inline-block;
+	margin-top: 25px;
+	font: 18px/16px "Montserrat-SemiBold";
+	border-bottom: 1px solid #3E67B6;
+	color: #3E67B6;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.service__button:hover{border-bottom: 1px solid transparent;}
+.main-service{padding: 185px 0px 70px;}
+.main-service .h2-dop {left: -34px;}
+.main-service__wr-item{margin-top: 40px;}
+.main-service__title{
+	margin-bottom: 20px;
+	font: 30px/37px "Montserrat-SemiBold";
+	color: #3E67B6;
+}
+.main-service__item + .main-service__item{margin-top: 10px;}
+.main-service__text{
+	float: left;
+	width: 810px;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+.main-service__price{
+	float: right;
+	width: 125px;
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #3E67B6;
+}
+.main-service__name{
+	margin-bottom: 10px;
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #000000;
+}
+.main-service__wr-dop-info{margin-top: 35px;}
+.main-service__dop-info{
+	font: 18px/22px "Montserrat-Italic";
+	color: #000000;
+	opacity: 0.5;
+}
+@media screen and (max-width: 1006px){
+	.service{padding: 105px 0px 90px;}
+	.service .h2 {margin-bottom: 45px;}
+	.service__item{
+		margin-right: 10px;
+    	width: 174px;
+	}
+	.service__wr-text{padding: 20px 10px 25px;}
+	.service__wr-txt{min-height: 255px;}
+	.service__name{
+		margin-bottom: 15px;
+    	font: 16px/20px "Montserrat-SemiBold";
+	}
+	.service__text{
+		font-size: 13px;
+    	line-height: 20px;
+	}
+	.service__button{
+		margin-top: 20px;
+    	font: 16px/17px "Montserrat-SemiBold";
+	}
+	.main-service{padding: 145px 0px 45px;}
+	.main-service__text{
+		width: 590px;
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+	.main-service__price{
+		width: 125px;
+    	font: 16px/22px "Montserrat-SemiBold";
+	}
+	.main-service__name{font: 16px/20px "Montserrat-SemiBold";}
+	.main-service__title{font: 25px/30px "Montserrat-SemiBold";}
+	.main-service__wr-dop-info {margin-top: 30px;}
+	.main-service__dop-info {font: 16px/20px "Montserrat-Italic";}
+}
+@media screen and (max-width: 767px){
+	.service {padding: 60px 0px 50px;}
+	.service .h2{margin-bottom: 30px;}
+	.service__item{
+		margin-right: 10px;
+    	width: 262px;
+	}
+	.service__name{
+		margin-bottom: 10px;
+   	 	font: 14px/17px "Montserrat-SemiBold";
+	}
+	.service__text{
+		font-size: 12px;
+    	line-height: 17px;
+	}
+	.service__item{
+		margin-right: 0px;
+    	width: 100%;
+	}
+	.service__item + .service__item{margin-top: 15px;}
+	.service__item img{
+		display: inline-block;
+		margin-bottom: 0px;
+		margin-right: 20px;
+    	width: 70px;
+    	height: 70px;
+    	vertical-align: middle;
+	}
+	.service__wr-text{
+		display: inline-block;
+	    padding: 15px 10px 20px;
+	    width: 350px;
+	    vertical-align: middle;
+	}
+	.service__wr-txt{min-height: auto;}
+	.service__button{display: none;}
+	.main-service{padding: 110px 0px 30px;}
+	.main-service__title{
+		margin-bottom: 12px;
+		font: 20px/24px "Montserrat-SemiBold";
+	}
+	.main-service__text {
+	    width: 340px;
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+	.main-service__price {
+	    width: 95px;
+	    font: 12px/15px "Montserrat-SemiBold";
+	}
+	.main-service__wr-item{margin-top: 20px;}
+	.main-service__item + .main-service__item{margin-top: 5px;}
+	.main-service__name {
+		margin-bottom: 5px;
+    	font: 13px/15px "Montserrat-SemiBold";
+	}
+	.main-service__wr-dop-info {margin-top: 20px;}
+	.main-service__dop-info {font: 11px/17px "Montserrat-Italic";}
+}
+@media screen and (max-width: 479px){
+	.service {padding: 45px 0px;}
+	.service .h2 {margin-bottom: 20px;}
+	.service__item img{margin-right: 0px;}
+	.service__wr-text{
+		padding: 15px 10px 15px;
+    	width: 210px;
+	}
+	.service__text{font-size: 11px;}
+	.main-service{padding: 90px 0px 40px;}
+	.main-service__text{width: 195px;}
+	.main-service__price{width: 89px;}
+}
+/* /----- service ----- */
+
+
+/* ----- exact-cost ----- */
+.exact-cost{
+	padding: 60px 0px 65px;
+    background: url(../images/exact-cost.jpg) no-repeat center;
+    background-size: cover;
+}
+.exact-cost__title{
+	margin-bottom: 40px;
+	font: 40px/49px "Montserrat-SemiBold";
+	text-align: center;
+	color: #3E67B6;
+}
+.exact-cost__wr-number{
+	margin: 0px auto 40px;
+    padding: 30px 50px 30px;
+    width: 460px;
+    text-align: center;
+    background: #3E67B6;
+}
+.exact-cost__wr-number-text{
+	margin-bottom: 25px;
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #ffffff;
+}
+.exact-cost__wr-number-number{
+	font: 30px/37px "Montserrat-SemiBold";
+	color: #ffffff;
+}
+.exact-cost__text{
+	margin: 0px auto 20px;
+	width: 460px;
+	font: 18px/22px "Montserrat-SemiBold";
+	text-align: center;
+	color: #000000;
+}
+.exact-cost__text span{color: #3E67B6;}
+.exact-cost__wr-item{text-align: center;}
+.exact-cost__item{
+	display: inline-block;
+	margin: 0px 25px;
+	width: 260px;
+}
+.exact-cost__name-input{
+	margin-left: 4px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: left;
+	color: #000000;
+}
+.exact-cost__input-text{
+	padding: 12px 25px;
+	width: 100%;
+	height: 50px;
+	line-height: 21px;
+	color: #000000;
+	border: 2px solid #3E67B6;
+	border-radius: 30px;
+}
+.exact-cost__input-submit{
+	display: block;
+	margin: 40px auto 0px;
+}
+.exact-cost__info{
+	margin-top: 15px;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+.exact-cost-dop{
+	padding: 60px 0px 65px;
+    background: url(../images/exact-cost-dop.jpg) no-repeat center;
+    background-size: cover;
+}
+.exact-cost-dop .exact-cost__title,
+.exact-cost-dop .exact-cost__text{text-align: left;}
+.exact-cost-dop .exact-cost__text{
+	margin: 0px 0px 30px;
+	width: 665px;
+}
+.exact-cost-dop .exact-cost__info,
+.exact-cost-dop .exact-cost__wr-item{text-align: left;}
+.exact-cost-dop .exact-cost__item{margin: 0px;}
+.exact-cost-dop .exact-cost__item + .exact-cost__item{margin-left: 30px;}
+.exact-cost-dop .exact-cost__input-submit{margin: 20px 0px 0px;}
+.exact-cost-dop .exact-cost__wr-number{
+	padding: 0px;
+	width: 100%;
+	text-align: left;
+	background: transparent;
+}
+.exact-cost-dop .exact-cost__wr-number-text{
+	margin-bottom: 10px;
+	color: #000000;
+}
+.exact-cost-dop .exact-cost__wr-number-number{color: #3E67B6;}
+@media screen and (max-width: 1006px){
+	.exact-cost {padding: 45px 0px 45px;}
+	.exact-cost__title{
+		margin-bottom: 25px;
+    	font: 35px/43px "Montserrat-SemiBold";
+	}
+	.exact-cost__wr-number{
+		margin: 0px auto 35px;
+	    padding: 20px 30px;
+	    width: 410px;
+	}
+	.exact-cost__wr-number-text{
+		margin-bottom: 15px;
+    	font: 18px/22px "Montserrat-SemiBold";
+	}
+	.exact-cost__text{
+		margin: 0px auto 20px;
+	    width: 460px;
+	    font: 16px/20px "Montserrat-SemiBold";
+	}
+	.exact-cost__name-input{font-size: 16px;}
+	.exact-cost__input-submit{margin: 26px auto 0px;}
+	.exact-cost__wr-number-number{font: 25px/30px "Montserrat-SemiBold";}
+	.exact-cost-dop{margin-bottom: 25px;}
+	.exact-cost-dop .exact-cost__text{width: 355px;}
+	.exact-cost-dop .exact-cost__wr-number{margin-bottom: 25px;}
+}
+@media screen and (max-width: 767px){
+	.exact-cost {padding: 30px 0px 45px;}
+	.exact-cost__title {
+	    margin-bottom: 20px;
+	    font: 20px/24px "Montserrat-SemiBold";
+	}
+	.exact-cost__wr-number{
+		margin: 0px auto 20px;
+	    padding: 15px 30px;
+	    width: 320px;
+	}
+	.exact-cost__wr-number-text{
+		margin-bottom: 10px;
+    	font: 13px/17px "Montserrat-SemiBold";
+	}
+	.exact-cost__wr-number-number{font: 16px/28px "Montserrat-SemiBold";}
+	.exact-cost__text{
+		margin: 0px auto 15px;
+	    width: 380px;
+	    font: 14px/17px "Montserrat-SemiBold";
+	}
+	.exact-cost__item{
+		margin: 0px 25px;
+    	width: 310px;
+	}
+	.exact-cost__item + .exact-cost__item{margin-top: 10px;}
+	.exact-cost__name-input{
+		margin-bottom: 5px;
+		font-size: 12px;
+	}
+	.exact-cost__input-text{
+		padding: 12px 15px;
+	    width: 100%;
+	    font-size: 12px;
+	    line-height: 12px;
+	    height: 35px;
+	    border: 1px solid #3E67B6;
+	}
+	.exact-cost-dop{
+		background: url(../images/exact-cost-dop-pred-mod.jpg) no-repeat center;
+		background-size: cover;
+	}
+	.exact-cost-dop .exact-cost__title {margin-bottom: 19px;}
+	.exact-cost-dop .exact-cost__wr-number {margin-bottom: 13px;}
+	.exact-cost-dop .exact-cost__wr-number-text {margin-bottom: 5px;}
+	.exact-cost-dop .exact-cost__text {
+		margin: 0px 0px 20px;
+	    width: 298px;
+	}
+	.exact-cost-dop .exact-cost__item + .exact-cost__item{margin-left: 0px;}
+}
+@media screen and (max-width: 479px){
+	.exact-cost {padding: 30px 0px 30px;}
+	.exact-cost__title {
+	    margin-bottom: 15px;
+	    font: 14px/19px "Montserrat-SemiBold";
+	}
+	.exact-cost__wr-number {
+	    margin: 0px auto 15px;
+	    padding: 10px 15px;
+	    width: 100%;
+	}
+	.exact-cost__wr-number-text {
+	    margin-bottom: 5px;
+	    font: 13px/17px "Montserrat-SemiBold";
+	}
+	.exact-cost__text {
+	    margin: 0px auto 15px;
+	    width: 100%;
+	    font: 12px/17px "Montserrat-SemiBold";
+	}
+	.exact-cost__item{
+		margin: 0px 25px;
+    	width: 190px;
+	}
+	.exact-cost-dop{
+		background: url(../images/exact-cost-dop-mod.jpg) no-repeat center;
+		background-size: cover;
+	}
+	.exact-cost-dop .exact-cost__title{width: 189px;}
+	.exact-cost-dop .exact-cost__text{width: 188px;}
+}
+/* /----- exact-cost ----- */
+
+
+/* ----- reviews ----- */
+.reviews{padding: 150px 0px 100px;}
+.reviews .wr-h2{margin-bottom: 60px;}
+.reviews .slide{
+	margin: 0px 8px;
+    padding: 15px 15px 20px;
+    height: 386px;
+    background: #E9EEFF;
+}
+.reviews__wr-rate{
+	margin-bottom: 7px;
+	width: 100px;
+	height: 20px;
+	background: url(../images/rate.png) no-repeat center;
+}
+.reviews__rate{
+	height: 20px;
+	background: url(../images/rate-dop.png) no-repeat;
+}
+.reviews__name{
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #000000;
+}
+.reviews__date{
+	margin-bottom: 10px;
+	font: 13px/17px "Montserrat-Italic";
+	color: #000000;
+}
+.reviews__text{
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+.reviews__text span{
+	display: inline-block;
+	font-size: 13px;
+	line-height: 15px;
+	color: #3E67B6;
+	border-bottom: 1px solid #3E67B6;
+	cursor: pointer;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.reviews__text span:hover{border-bottom: 1px solid transparent;}
+.reviews__text-hidden{display: none;}
+.reviews .order-button{
+	display: block;
+	margin: 90px auto 0px
+}
+.reviews .slick-dots{bottom: -48px;}
+.reviews .slick-dots li button::before{display: none;}
+.reviews .slick-dots li{
+	margin: 0 10px;
+	width: 10px;
+	height: 10px;
+	vertical-align: middle;
+	background: #E9EEFF;
+	border: 1px solid #3E67B6;
+	border-radius: 50%;
+}
+.reviews .slick-dots li.slick-active{
+	width: 15px;
+	height: 15px;
+	border: none;
+	background: #3E67B6;
+}
+.reviews .slick-dots li button{
+	width: auto;
+	height: auto;
+}
+.reviews .slick-prev{
+	top: 404px;
+    left: 50%;
+    z-index: 1;
+}
+.reviews .slick-next{
+	top: 404px;
+    right: 50%;
+    z-index: 1;
+}
+.reviews .order-button{
+	display: block;
+	margin: 80px auto 0px;
+}
+@media screen and (max-width: 1006px){
+	.reviews {padding: 105px 0px 50px;}
+	.reviews .wr-h2 {margin-bottom: 30px;}
+}
+@media screen and (max-width: 767px){
+	.reviews {padding: 60px 0px 0px;}
+	.reviews__name {font: 14px/17px "Montserrat-SemiBold";}
+	.reviews__date{font: 12px/15px "Montserrat-Italic";}
+	.reviews__text{
+		font-size: 12px;
+    	line-height: 15px;
+	}
+	.reviews .slide{height: 330px;}
+	.reviews .slick-next{
+		top: 349px;
+    	right: 175px;
+	}
+	.reviews .slick-prev{
+		top: 349px;
+    	left: 175px;
+	}
+	.reviews .order-button{display: none;}
+}
+@media screen and (max-width: 479px){
+	.reviews {padding: 45px 0px 0px;}
+	.reviews .wr-h2 {margin-bottom: 20px;}
+	.reviews .slide {height: 270px;}
+	.reviews .slick-prev{
+		top: 289px;
+    	left: 90px;
+	}
+	.reviews .slick-next{
+		top: 289px;
+    	right: 90px;
+	}
+}
+/* /----- reviews ----- */
+
+
+/* ----- contacts ----- */
+.contacts{padding: 100px 0px 30px;}
+.contacts .wr-h2{margin-bottom: 25px;}
+.contacts__wr-map{
+	margin-bottom: 40px;
+	width: 100%;
+	height: 660px;
+}
+.contacts__wr-map iframe{display: block;}
+.contacts__item{
+	display: inline-block;
+	width: 470px;
+	vertical-align: top;
+}
+.contacts__item:last-child{float: right;}
+.contacts__name{
+	margin-bottom: 20px;
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #000000;;
+}
+.contacts__text a,
+.contacts__text{
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+.contacts__text{margin-bottom: 7px;}
+.contacts__text span{
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #3E67B6;
+}
+@media screen and (max-width: 1006px){
+	.contacts {padding: 60px 0px 25px;}
+	.contacts__wr-map{
+		margin-bottom: 30px;
+    	height: 470px;
+	}
+	.contacts__item{width: 360px;}
+	.contacts__name{
+		margin-bottom: 15px;
+    	font: 14px/22px "Montserrat-SemiBold";
+	}
+	.contacts__text{margin-bottom: 5px;}
+	.contacts__text span,
+	.contacts__text a,
+	.contacts__text {font-size: 14px;}
+}
+@media screen and (max-width: 767px){
+	.contacts {padding: 120px 0px 25px;}
+	.contacts-dop{padding: 30px 0px 25px;}
+	.contacts .wr-h2{margin-bottom: 20px;}
+	.contacts__wr-map {
+	    margin-bottom: 25px;
+    	height: 280px;
+	}
+	.contacts__item{
+		display: block;
+    	margin: 0px auto;
+		width: 310px;
+	}
+	.contacts__text span,
+	.contacts__text a,
+	.contacts__text{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.contacts__name{margin-bottom: 10px;}
+	.contacts__item:last-child{
+		float: none;
+    	margin-top: 20px;
+	}
+}
+@media screen and (max-width: 479px){
+	.contacts {padding: 100px 0px 25px;}
+	.contacts-dop{padding: 10px 0px 25px;}
+	.contacts .h2-dop{font-size: 50px;}
+	.contacts__wr-map {height: 230px;}
+	.contacts__item{width: 100%;}
+}
+/* /----- contacts ----- */
+
+
+/* ----- footer ----- */
+.footer{
+	padding: 20px 0px;
+	text-align: center;
+    border-top: 1px solid #E9EFFF;
+}
+.footer__text{
+	float: left;
+	width: 230px;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: left;
+	color: #3E67B6;
+}
+.footer ul{
+	display: inline-block;
+	    margin-top: 11px;
+}
+.footer ul li{
+	display: inline-block;
+	margin: 0px 12px;
+}
+.footer ul a{
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #3E67B6;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.footer__to-up{
+	float: right;
+    margin-top: 6px;
+    padding: 5px 0px 5px 27px;
+    font: 18px/22px "Montserrat-SemiBold";
+    color: #3E67B6;
+    -webkit-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+    background: url(../images/arrow-to-up.svg) no-repeat left center;
+}
+.footer__to-up:hover,
+.footer ul a:hover{color: #5978B6;}
+@media screen and (max-width: 1006px){
+	.footer{padding: 15px 0px;}
+	.footer__text{
+		width: 175px;
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+	.footer ul{margin-top: 9px;}
+	.footer ul li{margin: 0px 10px;}
+	.footer__to-up,
+	.footer ul a{font-size: 14px;}
+	.footer ul a{margin-top: 4px;}
+}
+@media screen and (max-width: 767px){
+	.footer {padding: 10px 0px;}
+	.footer__text {
+	    width: 150px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.footer ul{display: none;}
+}
+/* /----- footer ----- */
+
+
+/* ----- попап записаться на приём ----- */
+.popup_make-appointment{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	display: none;
+	padding: 50px 20px 100px;
+	width: 444px;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	background: #ffffff;
+	z-index: 5;
+}
+.popup_make-appointment__name{
+	margin-bottom: 24px;
+	font: 18px/22px "Montserrat-SemiBold";
+	color: #000000;
+}
+.popup_make-appointment__text{
+	margin-bottom: 30px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+.popup_make-appointment__item{
+	margin: 0px auto 0px;
+	width: 260px;
+}
+.popup_make-appointment__item + .popup_make-appointment__item{margin-top: 15px;}
+.popup_make-appointment__name-input{
+	margin-left: 8px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: left;
+	color: #000000;
+}
+.popup_make-appointment__input-text{
+	padding: 12px 25px;
+	width: 100%;
+	height: 50px;
+	line-height: 21px;
+	color: #000000;
+	border: 2px solid #3E67B6;
+	border-radius: 30px;
+}
+.popup_make-appointment__input-submit{margin-top: 30px;}
+.popup_make-appointment__info{
+	margin-top: 15px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000000;
+}
+.popup_make-appointment__close{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+@media screen and (max-width: 1006px){
+	.popup_make-appointment{padding: 40px 20px 40px;}
+	.popup_make-appointment__text{font-size: 15px;}
+	.popup_make-appointment__name-input{font-size: 16px;}
+}
+@media screen and (max-width: 767px){
+	.popup_make-appointment{
+		padding: 19px 10px 21px;
+		width: 240px;
+	}
+	.popup_make-appointment__name{
+		margin-bottom: 10px;
+		font: 12px/15px "Montserrat-SemiBold";
+	}
+	.popup_make-appointment__name br{display: none;}
+	.popup_make-appointment__text{
+		margin-bottom: 11px;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.popup_make-appointment__item{
+		margin: 0px auto 0px;
+    	width: 190px;
+	}
+	.popup_make-appointment__name-input {
+		margin-left: 5px;
+    	margin-bottom: 3px;
+    	font-size: 12px;
+	}
+	.popup_make-appointment__input-text{
+		padding: 7px 15px;
+	    width: 100%;
+	    height: 30px;
+	    line-height: 32px;
+	    border: 1px solid #3E67B6;
+	}
+	.popup_make-appointment__item + .popup_make-appointment__item{margin-top: 10px;}
+	.popup_make-appointment__input-submit {margin-top: 15px;}
+	.popup_make-appointment__info{
+		margin-top: 10px;
+	    font-size: 11px;
+	    line-height: 15px;
+	}
+	.popup_make-appointment__info br{display: none;}
+	.popup_make-appointment__close{
+		top: 5px;
+		right: 5px;
+		width: 28px;
+		height: 28px;
+	}
+}
+/* /----- попап записаться на приём ----- */
+
+
+/* ----- попап читать далее ----- */
+.popup_read-more{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    padding: 40px 45px 50px;
+    width: 684px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    z-index: 5;
+}
+.popup_read-more__close{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+.popup_read-more__wr-rate{
+	margin-bottom: 10px;
+    width: 175px;
+    height: 35px;
+    background: url(../images/big-star.svg) repeat-x;
+    background-size: 35px;
+}
+.popup_read-more__rate{
+	display: block;
+	width: 100%;
+    height: 35px;
+    background: url(../images/big-star-full.svg) repeat-x;
+    background-size: 35px;
+}
+.popup_read-more__wr-text{
+	padding: 0px 5px;
+    height: 331px;
+    overflow-y: auto;
+}
+.popup_read-more__name{
+	font: 20px/24px "Montserrat-SemiBold";
+	color: #000000;
+}
+.popup_read-more__date{
+	font: 16px/20px "Montserrat-Italic";
+	color: #000000;
+}
+.popup_read-more__text{
+	margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+@media screen and (max-width: 767px){
+	.popup_read-more{
+		padding: 15px 10px 15px;
+    	width: 240px;
+	}
+	.popup_read-more__wr-rate{
+		margin-bottom: 10px;
+	    width: 125px;
+	    height: 25px;
+	    background: url(../images/big-star.svg) repeat-x;
+	    background-size: 25px;
+	}
+	.popup_read-more__rate{
+		height: 24px;
+	    background: url(../images/big-star-full.svg) repeat-x;
+	    background-size: 25px;
+	}
+	.popup_read-more__name{font: 15px/15px "Montserrat-SemiBold";}
+	.popup_read-more__date{font: 13px/20px "Montserrat-Italic";}
+	.popup_read-more__wr-text{height: 224px;}
+	.popup_read-more__text{
+		margin-top: 8px;
+	    font-size: 11px;
+	    line-height: 20px;
+	}
+	.popup_read-more__close{
+		top: 5px;
+		right: 5px;
+		width: 28px;
+		height: 28px;
+	}
+}
+/* /----- попап читать далее ----- */
+
+
+/* ----- страницы оставить отзыв ----- */
+.popup-reviews{
+	padding: 35px 0px 0px;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	overflow: auto;
+    z-index: 5;
+}
+.popup-reviews .container{
+	padding-bottom: 200px;
+	background: url(../images/popup-reviews-bg.png) no-repeat 370px 150px;
+}
+.popup-reviews__back{
+	display: inline-block;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	background: url(../images/arrow-back.svg) no-repeat left center;
+	cursor: pointer;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.popup-reviews__back a{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+	-webkit-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.popup-reviews__back:hover a{border-bottom: 1px solid transparent;}
+.popup-reviews__title{
+	margin-bottom: 30px;
+	font: 40px/49px "Montserrat-SemiBold";
+	color: #3E67B6;
+}
+.popup-reviews form{width: 560px;}
+.popup-reviews__wr-item{margin-bottom: 25px;}
+.popup-reviews__item{
+	display: inline-block;
+	width: 260px;
+}
+.popup-reviews__item:last-child{float: right;}
+.popup-reviews__name-input{
+	margin-left: 4px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: left;
+	color: #000000;
+}
+.popup-reviews__input-text{
+	padding: 12px 25px;
+	width: 100%;
+	height: 50px;
+	line-height: 21px;
+	color: #000000;
+	border: 2px solid #3E67B6;
+	border-radius: 30px;
+}
+.popup-reviews__input-submit{
+	display: block;
+	margin: 40px auto 0px;
+}
+.popup-reviews__info{
+	margin-top: 15px;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+.popup-reviews__wr-textarea textarea{
+	padding: 15px 15px;
+	width: 100%;
+	height: 260px;
+	border: 2px solid #3E67B6;
+	color: #000000;
+}
+.popup-reviews__input-submit{
+	display: block;
+    margin: 20px 0px 0px;
+}
+.popup-reviews__info{
+	margin-top: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    color: #000000;
+}
+@media screen and (max-width: 1006px){
+	.popup-reviews .container{
+		padding-bottom: 40px;
+    	background: url(../images/popup-reviews-bg.png) no-repeat 236px 95px;
+    	background-size: 86%;
+	}
+	.popup_read-more__wr-text{height: 235px;}
+	.popup-reviews__back{
+		margin-bottom: 25px;
+		padding-left: 18px;
+	    font-size: 14px;
+	    line-height: 17px;
+	    background-size: 9px;
+	}
+	.popup-reviews__back a{
+		font-size: 14px;
+    	line-height: 14px;
+	}
+	.popup-reviews__title{
+		margin-bottom: 25px;
+    	font: 30px/37px "Montserrat-SemiBold";
+	}
+	.popup-reviews form{width: 455px;}
+	.popup-reviews__wr-item{margin-bottom: 25px;}
+	.popup-reviews__item{display: block;}
+	.popup-reviews__item:last-child{
+    	float: none;
+		margin-top: 20px;
+	}
+	.popup-reviews__name-input{
+		margin-bottom: 10px;
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+}
+/* /----- страницы оставить отзыв ----- */

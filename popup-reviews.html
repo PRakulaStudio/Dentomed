@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head id="main-screen">
+	<title>Стоматология</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Все виды стоматологических услуг на профессиональном уровне">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link rel="icon" type="image/png" href="images/logo-icon.png"> 
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery.maskedinput-1.2.2.js"></script>
+	<script src="js/main-scripts.js"></script>
+</head>
+<body>
+	<div class="popup-reviews">
+		<div class="container">
+			<p class="popup-reviews__back"><a href="index.html">Назад</a></p>
+			<p class="popup-reviews__title">Нам очень важно мнение клиентов, будем благодарны за обратную связь:</p>
+			<form>
+				<div class="popup-reviews__wr-item clearfix">
+					<div class="popup-reviews__item">
+						<p class="popup-reviews__name-input">Имя:</p>
+						<input class="popup-reviews__input-text" type="text" name="text" placeholder="Пациент" required="">
+					</div>
+					<div class="popup-reviews__item">
+						<p class="popup-reviews__name-input">Дата посещения:</p>
+						<input class="date-mask popup-reviews__input-text" type="text" name="text" placeholder="01.01.2000" required="">
+					</div>
+				</div>
+				<div class="popup-reviews__wr-textarea">
+					<p class="popup-reviews__name-input">Текст отзыва:</p>
+					<textarea placeholder="Введите..."></textarea>
+				</div>
+				<input class="popup-reviews__input-submit order-button" type="submit" name="submit" value="Отправить">
+				<p class="popup-reviews__info">Нажимая на кнопку, вы даете согласие на<br> обработку своих персональных данных</p>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
