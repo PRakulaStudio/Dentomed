@@ -53,15 +53,15 @@
 			<div class="choose-specialization">
 				<button class="choose-specialization__select-selected">Все специализации</button>
 				<ul class="choose-specialization__select-list">
-					<li class="choose-specialization__select-name">Терапевт</li>
-					<li class="choose-specialization__select-name">Ортопед</li>
-					<li class="choose-specialization__select-name">Хирург</li>
-					<li class="choose-specialization__select-name">Имплантолог</li>
-					<li class="choose-specialization__select-name">Пародонт</li>
+					<li class="choose-specialization__select-name" data-section="therapy">Терапевт</li>
+					<li class="choose-specialization__select-name" data-section="orthopedics">Ортопед</li>
+					<li class="choose-specialization__select-name" data-section="surgery">Хирург</li>
+					<li class="choose-specialization__select-name" data-section="implantation">Имплантолог</li>
+					<li class="choose-specialization__select-name" data-section="periodontics">Пародонт</li>
 				</ul>
 			</div>
 		</div>
-		<div class="main-service__wr-item">
+		<div id="therapy" class="main-service__wr-item">
 			<p class="main-service__title">Терапия</p>
 			<div class="main-service__item clearfix">
 				<p class="main-service__text">- Пломба светового отверждения</p>
@@ -176,91 +176,394 @@
 				<p class="main-service__price">300 руб.</p>
 			</div>
 		</div>
-		<div class="main-service__wr-item">
+		<div id="orthopedics" class="main-service__wr-item">
 			<p class="main-service__title">Ортопедия</p>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Первичный осмотр, консультация</p>
+				<p class="main-service__price">300 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Анестезия</p>
+				<p class="main-service__price">от 500 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Коронка штампованная</p>
+				<p class="main-service__price">от 1 200 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Коронка бюгельная</p>
+				<p class="main-service__price">от 1 250 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Коронка комбинированная</p>
+				<p class="main-service__price">от 1 300 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Коронрка пластмассовая (капа)</p>
+				<p class="main-service__price">1 100 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Комбинированный зуб, полностью покрытый пластмассой (плазма)</p>
+				<p class="main-service__price">2 800 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Зуб штифтовой</p>
+				<p class="main-service__price">от 2 200 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Зуб литой</p>
+				<p class="main-service__price">от 1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Фасетка</p>
+				<p class="main-service__price">от 1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Зуб с открытой жевательной поверхностью</p>
+				<p class="main-service__price">2 600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Спайка (пайка серебряным припоем)</p>
+				<p class="main-service__price">400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Лапка</p>
+				<p class="main-service__price">300 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Вкладка культовая</p>
+				<p class="main-service__price">2 800 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Вкладкая медная</p>
+				<p class="main-service__price">1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Штифт-вкладка "Икадент"</p>
+				<p class="main-service__price">1 500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Снятие коронки</p>
+				<p class="main-service__price">600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Фиксация коронки</p>
+				<p class="main-service__price">600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Слепок из стомальгина</p>
+				<p class="main-service__price">600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Диагностические модели (1 слепок)</p>
+				<p class="main-service__price">1 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Протез съемный полный</p>
+				<p class="main-service__price">от 11 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Бюгель замковый М-1 - односторонний</p>
+				<p class="main-service__price">35 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Коррекция съемного протеза</p>
+				<p class="main-service__price">1 200 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Перебазировка съемного протеза</p>
+				<p class="main-service__price">3 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Починка съмного протеза (1 протез)</p>
+				<p class="main-service__price">1 600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Починка съемного протеза (2 перелома)</p>
+				<p class="main-service__price">2 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Косметический протез до 3-х зубов</p>
+				<p class="main-service__price">7 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Коронка металлокерамическая (США, Германия) (от 1 до 3 ед.)</p>
+				<p class="main-service__price">7 500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Коронка металлокерамическая (США, Германия) (4 и более ед.)</p>
+				<p class="main-service__price">8 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Коронка металл пластмассса</p>
+				<p class="main-service__price">5 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Коронка цельнолитая</p>
+				<p class="main-service__price">4 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Слепок из сиэласта (под металлокерамику двухслойный)</p>
+				<p class="main-service__price">900 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Снятие 1 ед. металлокерамики</p>
+				<p class="main-service__price">1 200 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Фиксация 1 ед. металлокерамики</p>
+				<p class="main-service__price">700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Штамповка в съемный протез 1 ед.</p>
+				<p class="main-service__price">1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Установка металлической сетки на старый протез</p>
+				<p class="main-service__price">3 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Шаблон для определения прикуса с керамической массой</p>
+				<p class="main-service__price">600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Нейлоновый безмономерный бюгель (без металла)</p>
+				<p class="main-service__price">32 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Нейлоновый безмономерный односторонний 1 или 2 зуба</p>
+				<p class="main-service__price">14 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Вкладка корневые культевые 1,2 и 3 корневые</p>
+				<p class="main-service__price">от 4 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Безметалловая керамика на основе циркония</p>
+				<p class="main-service__price">17 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Вкладка культевая из оксида циркония</p>
+				<p class="main-service__price">11 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Замена втулки 1 шт. (Замк. Бюгель)</p>
+				<p class="main-service__price">1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Протез DENTAL-D, белый каркас</p>
+				<p class="main-service__price">38 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Акри-фри (Acni fni) cъемный протез</p>
+				<p class="main-service__price">32 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Литая сетка</p>
+				<p class="main-service__price">3 500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Протез съемный  полный</p>
+				<p class="main-service__price">от 14 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Протез съемный частичный</p>
+				<p class="main-service__price">от 10 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Ложка индивидуальная (воск)</p>
+				<p class="main-service__price">1 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Ложка индивидуальная (пластмасса)</p>
+				<p class="main-service__price">1 100 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Кламмер</p>
+				<p class="main-service__price">от 600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Слепок репином</p>
+				<p class="main-service__price">800 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Приварка кламмера</p>
+				<p class="main-service__price">1 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Приварка одного зуба</p>
+				<p class="main-service__price">1 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Фасетки - восстановление пластмассой</p>
+				<p class="main-service__price">2 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Фасетки - восстановление композит. материалами</p>
+				<p class="main-service__price">2 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Бюгель</p>
+				<p class="main-service__price">17 000 руб.</p>
 			</div>
 		</div>
-		<div class="main-service__wr-item">
+		<div id="surgery" class="main-service__wr-item">
 			<p class="main-service__title">Хирургия</p>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Первичный осмотр, консультация</p>
+				<p class="main-service__price">300 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Анестезия</p>
+				<p class="main-service__price">от 300 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Премедикация</p>
+				<p class="main-service__price">600 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Удаление простое (детям и пародонтозные зубы)</p>
+				<p class="main-service__price">900 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Удаление сложное</p>
+				<p class="main-service__price">от 1 000 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Кюретаж лунки (лечение альвеолита)</p>
+				<p class="main-service__price">1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Альвеолотомия (экзостоз)</p>
+				<p class="main-service__price">2 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Смена турунды</p>
+				<p class="main-service__price">600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Дренирование раны</p>
+				<p class="main-service__price">700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Медикаментозная обработка</p>
+				<p class="main-service__price">700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Инстиляция протоков, массаж железы, компрессы</p>
+				<p class="main-service__price">8 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Вскрытие абсцессов</p>
+				<p class="main-service__price">2 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Резекция корней зубов</p>
+				<p class="main-service__price">от 7 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Гемисекция</p>
+				<p class="main-service__price">от 5 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Наложение швов</p>
+				<p class="main-service__price">600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Первичная хирургическая обработка</p>
+				<p class="main-service__price">1 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Снятие швов</p>
+				<p class="main-service__price">500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Шинирование (при переломе челюсти)</p>
+				<p class="main-service__price">14 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Удаление мягкотканнных новообразований</p>
+				<p class="main-service__price">от 7 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Удаление сверхкомплектных зубов</p>
+				<p class="main-service__price">от 6 000 руб.</p>
 			</div>
 		</div>
-		<div class="main-service__wr-item">
+		<div id="implantation" class="main-service__wr-item">
 			<p class="main-service__title">Имплантация</p>
+<!--			<div class="main-service__item clearfix">-->
+<!--				<p class="main-service__name">Система среднего класса (США, Южная Корея)</p>-->
+<!--				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>-->
+<!--				<p class="main-service__price">25 000 руб.</p>-->
+<!--			</div>-->
 			<div class="main-service__item clearfix">
-				<p class="main-service__name">Система среднего класса (США, Южная Корея)</p>
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Удаление простое (детям и пародонтозные зубы)</p>
+				<p class="main-service__price">900 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__name">Система среднего класса (США, Южная Корея)</p>
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Удаление сложное</p>
+				<p class="main-service__price">от 1 000 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__name">Система среднего класса (США, Южная Корея)</p>
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Кюретаж лунки (лечение альвеолита)</p>
+				<p class="main-service__price">1 400 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__name">Система среднего класса (США, Южная Корея)</p>
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Альвеолотомия (экзостоз)</p>
+				<p class="main-service__price">2 000 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__name">Система среднего класса (США, Южная Корея)</p>
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Смена турунды</p>
+				<p class="main-service__price">600 руб.</p>
 			</div>
 			<div class="main-service__item clearfix">
-				<p class="main-service__name">Система среднего класса (США, Южная Корея)</p>
-				<p class="main-service__text">- Костная пластика в области 2+ зубов с глубоким отслаиванием лоскута*</p>
-				<p class="main-service__price">25 000 руб.</p>
+				<p class="main-service__text">- Дренирование раны</p>
+				<p class="main-service__price">700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Медикаментозная обработка</p>
+				<p class="main-service__price">700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Инстиляция протоков, массаж железы, компрессы</p>
+				<p class="main-service__price">8 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Вскрытие абсцессов</p>
+				<p class="main-service__price">2 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Резекция корней зубов</p>
+				<p class="main-service__price">от 7 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Гемисекция</p>
+				<p class="main-service__price">от 5 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Наложение швов</p>
+				<p class="main-service__price">600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Первичная хирургическая обработка</p>
+				<p class="main-service__price">1 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Снятие швов</p>
+				<p class="main-service__price">500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Шинирование (при переломе челюсти)</p>
+				<p class="main-service__price">14 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Удаление мягкотканнных новообразований</p>
+				<p class="main-service__price">от 7 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Удаление сверхкомплектных зубов</p>
+				<p class="main-service__price">от 6 000 руб.</p>
 			</div>
 		</div>
 		<div class="main-service__wr-dop-info">
@@ -378,5 +681,21 @@
 </div>
 <!-- /Попап читать далее -->
 
+<script>
+	$(document).ready(function(){
+		$('.choose-specialization__select-name').each(function(){
+			$(this).click(function(){
+				var section = $(this).data('section');
+				$('.main-service__wr-item').each(function(){
+					if ($(this).attr('id') != section) {
+						$(this).hide();
+					} else {
+						$(this).show();
+					}
+				})
+			})
+		})
+	});
+</script>
 </body>
 </html>
