@@ -176,13 +176,6 @@ $(document).ready(function(){
 	$(".phone-mask").mask("+7 (999) 999-99-99");
 
 	//select
-	$('.choose-specialization__select-name').click(function() {
-		var select_name = $(this).text();
-		$(this).parents(".choose-specialization").find(".choose-specialization__select-selected").text(select_name);
-		$(this).addClass("active");
-		$('.choose-specialization__select-name').not($(this)).removeClass("active");
-	});
-
 	$('.choose-specialization').click(function() {
 		$(this).toggleClass('open');
 		$('.choose-specialization').not($(this)).removeClass('open');

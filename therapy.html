@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head id="main-screen">
+	<title>Стоматология</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Все виды стоматологических услуг на профессиональном уровне">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images/logo-icon.png">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="js/slick.css" />
+	<link rel="stylesheet" type="text/css" href="js/slick-theme.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/maskedinput.js"></script>
+	<script src="js/main-scripts.js"></script>
+</head>
+<body>
+<!-- Шапка -->
+<div class="header">
+	<div class="container clearfix">
+		<a class="header__logo" href="index.html"></a>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about-us.html">О нас</a></li>
+			<li class="active"><a href="service.html">Услуги</a></li>
+			<li><a href="our-doctors.html">Врачи</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<div class="header__content-right">
+			<a class="header__number" href="tel:84954670954">+7 (495) 467-09-54</a>
+			<p class="header__time">График работы: Пн-Пт 09.00-21.00</p>
+			<p class="header__time">Сб-Вс 09.00-20.00</p>
+			<span class="header__menu"></span>
+		</div>
+	</div>
+</div>
+<!-- /Шапка -->
+
+<!-- Услуги -->
+<div class="main-service">
+	<div class="container">
+		<div class="wr-h2">
+			<h2 class="h2">Услуги</h2>
+			<p class="h2-dop">Услуги</p>
+		</div>
+		<div class="wr-crumbs">
+			<a href="index.html">Главная</a>
+			<p>Услуги</p>
+		</div>
+		<div class="wr-choose-specialization">
+			<p class="choose-specialization__text">Выбрать специализацию:</p>
+			<div class="choose-specialization">
+				<button class="choose-specialization__select-selected">Терапевт</button>
+				<ul class="choose-specialization__select-list">
+					<li class="choose-specialization__select-name"><a href="service.html">Все специализации</a></li>
+					<li class="choose-specialization__select-name active" data-section="therapy"><a href="therapy.html">Терапевт</a></li>
+					<li class="choose-specialization__select-name" data-section="orthopedics"><a href="orthopedics.html">Ортопед</a></li>
+					<li class="choose-specialization__select-name" data-section="surgery"><a href="surgery.html">Хирург</a></li>
+					<li class="choose-specialization__select-name" data-section="implantation"><a href="implantation.html">Имплантолог</a></li>
+					<li class="choose-specialization__select-name" data-section="periodontics"><a href="periodontics.html">Пародонт</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="therapy" class="main-service__wr-item">
+			<p class="main-service__title">Терапия</p>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пломба светового отверждения</p>
+				<p class="main-service__price">от 2 500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Прокладка под пломбы светового отверждения</p>
+				<p class="main-service__price">от 700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Прокладка самоотверждаемая защитная</p>
+				<p class="main-service__price">700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пломба-шлифовка</p>
+				<p class="main-service__price">300 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пульпит однокорневой - лечение</p>
+				<p class="main-service__price">1 300 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пульпит двухкорневой - лечение</p>
+				<p class="main-service__price">1 500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пульпит трехкорневой - лечение</p>
+				<p class="main-service__price">1 600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Периодонтит - открытие</p>
+				<p class="main-service__price">1 200 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Периодонтит однокорневой - лечение</p>
+				<p class="main-service__price">1 300 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Периодонтит двухкорневой</p>
+				<p class="main-service__price">1 500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Периодонтит трехкорневой</p>
+				<p class="main-service__price">1 600 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Лечебный материал для антисептической обработки</p>
+				<p class="main-service__price">300 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Прокладка - адгезор</p>
+				<p class="main-service__price">400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Прокладка стеклоимерный цемент</p>
+				<p class="main-service__price">500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Каналы корневые - расширение химическое</p>
+				<p class="main-service__price">400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Каналы корневые - расширение: лечебный материал</p>
+				<p class="main-service__price">400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Каналы корневые - кровоостанавливающее средство</p>
+				<p class="main-service__price">400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Каналы корневые - лечебный материал при осложненном кариесе</p>
+				<p class="main-service__price">500 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пломбировка каналов - лечебная паста</p>
+				<p class="main-service__price">от 700 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пломбировка каналов передних зубов - лечебная паста</p>
+				<p class="main-service__price">от 900 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пломбировка каналов фосфатцементом</p>
+				<p class="main-service__price">1 000 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пломбировка каналов гуттаперчевыми штифтами 1 канал</p>
+				<p class="main-service__price">1 200 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Пломбировка каналов гуттаперчевыми штифтами 2 канал</p>
+				<p class="main-service__price">1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Каналы корневые - распломбировка</p>
+				<p class="main-service__price">от 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Стекловолоконнный штифт</p>
+				<p class="main-service__price">1 200 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Штифт - вкладка</p>
+				<p class="main-service__price">от 1 400 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Снимок рентгеновский</p>
+				<p class="main-service__price">от 300 руб.</p>
+			</div>
+			<div class="main-service__item clearfix">
+				<p class="main-service__text">- Покрытие профилактическим средством</p>
+				<p class="main-service__price">300 руб.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Услуги -->
+
+<!-- Статья -->
+<div class="container">
+	<div class="wr-h1">
+		<h2 class="h1">Гигиена полости рта</h1>
+		
+		
+	
+		<head>
+			<meta charset="utf-8">
+			<title>Интерлиньяж</title>
+			<style>
+			 p.dline {
+			  line-height: 1.5;
+			 }
+			 P {
+			  line-height: 0.9em;
+			 }
+			</style> 
+			<style>
+					p {
+					 text-indent: 20px; /* Отступ первой строки в пикселах */
+					}
+				   </style>
+		   </head>
+		   <body>
+
+			<p class="dline">Профессиональная гигиена полости рта - это комплекс мероприятий, направленных на механическое удаление зубных отложений с поверхности зубов и из-под десны.<br />
+
+				Очень многие пациенты пренебрегают профессиональной чисткой зубов, не понимая степень важности данного этапа лечения.
+				<br />
+				При плановом лечении зубов врачи-стоматологи в первую очередь направляют пациентов на профессиональную чистку зубов. Это необходимо для дальнейшей работы их в «чистом поле».
+				<br />
+				Что входит в профессиональную гигиену полости рта?
+				<br /> 1. Удаление зубного камня ультразвуком 
+				<br /> 2. Удаление зубного налета аппаратом Аir Flow
+				<br /> 3. Полировка поверхности зуба специальными инструментами 
+				<br /> 4. Профессиональное фторирование зубов 
+				<br /> 5. Обучение правилам гигиены полости рта в домашних условиях и подбор индивидуальных средств для каждого пациента
+				
+				<br />Как часто необходимо проводить профессиональную гигиену полости рта? 
+				Частота проведения профессиональной чистки зубов определяется врачом индивидуально для каждого пациента. Чаще всего это 1-2 раза в год.
+				
+				<br />	В ряде случаев для более наглядной демонстрации пациенту проводят окрашивание зубов специальной жидкостью. Это позволяет врачу-гигиенисту продемонстрировать ошибки в гигиене полости, которые допускаются пациентом в домашних условиях. 
+				<br />При проведение данного теста: 
+				<br />   -чистые зубы не окрашиваются 
+				   <br />   - если имеется «свежий» зубной налёт, зубы окрашиваются в розовый цвет
+				   <br /> - если имеется «старый» зубной налёт, зубы окрашиваются в фиолетовый цвет 
+				
+				Что такое зубной налёт? 
+				Зубной налёт - это постоянно образующееся на зубах скопление бактерий и сахара в виде бесцветной пленки, который в свою очередь является основной причиной развития кариеса и пародонтита. При несоблюдении ежедневных процедур гигиены полости рта, впоследствии он может затвердеть и превратиться в зубной камень. 
+				
+				Что такое зубной камень? 
+				Зубной камень - это желтые или коричневые отложения, которые представляют собой затвердевший зубной налёт. В свою очередь он прочно прикрепляется к зубу и удалить его можно только при проведении профессиональной чистки зубов.
+				
+				Рекомендации пациентам:
+				<br />-Проводите профессиональную чистку у стоматолога каждые 6 месяцев
+				<br />-Выбирайте правильные зубные щетки и не забывайте менять их каждые 3 месяца
+				<br />-Выбирайте правильные зубные пасты
+				<br />-Минимум раз в день пользуйтесь зубной нитью для удаления остатков пищи и налета между зубами 
+				<br />-Используйте ополаскиватель для полости рта, чтобы предотвратить формирование зубного налета и развитие гингивита
+				<br />-Не забывайте чистить зубы после каждого приема пищи 
+				<br />-И одним из самых главных пунктов является сбалансированное питание.
+				
+				
+				<br />И не забываем, что правильная и регулярная гигиена полости рта - это гарантия здоровья ваших зубов и ослепительной улыбки! 
+				 БУДЬТЕ ЗДОРОВЫ!</p> </body>
+	</div>
+<!-- /Статья -->
+
+<!-- Рассчитать точную стоимость -->
+<div class="exact-cost exact-cost-dop">
+	<div class="container">
+		<p class="exact-cost__title">Хотите рассчитать точную<br> стоимость вашего лечения?</p>
+		<div class="exact-cost__wr-number">
+			<p class="exact-cost__wr-number-text">Звоните по телефону:</p>
+			<a class="exact-cost__wr-number-number" href="tel:84954670954">+7 (495) 467-09-54</a>
+		</div>
+		<form>
+			<p class="exact-cost__text">Или заполните форму, и мы сами свяжемся с вами в ближайшее время:</p>
+			<div class="exact-cost__wr-item">
+				<div class="exact-cost__item">
+					<p class="exact-cost__name-input">Имя:</p>
+					<input class="exact-cost__input-text" type="text" name="text" placeholder="Пациент" required="">
+				</div>
+				<div class="exact-cost__item">
+					<p class="exact-cost__name-input">Номер телефона:</p>
+					<input class="exact-cost__input-text phone-mask" type="text" name="text" placeholder="+7(XXX)-XX-XX-XXX" required="">
+				</div>
+			</div>
+			<input class="exact-cost__input-submit order-button" type="submit" name="submit" value="Отправить данные">
+			<p class="exact-cost__info">Нажимая на кнопку, вы даете согласие на<br> обработку своих персональных данных</p>
+		</form>
+	</div>
+</div>
+<!-- /Рассчитать точную стоимость -->
+
+<!-- Контакты -->
+<div class="contacts contacts-dop">
+	<div class="container">
+		<div class="wr-h2">
+			<h2 class="h2">Контакты</h2>
+			<p class="h2-dop">Контакты</p>
+		</div>
+	</div>
+	<div class="contacts__wr-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8966.648465215327!2d37.81422740686307!3d55.81646607780803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b534af4a20d82f%3A0x4af6c1ee48659ebc!2z0JHQsNC50LrQsNC70YzRgdC60LDRjyDRg9C7LiwgNDcsINCc0L7RgdC60LLQsCwgMTA3NTg5!5e0!3m2!1sru!2sru!4v1562927331229!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="container clearfix">
+		<div class="contacts__item">
+			<p class="contacts__name">Ул. Байкальская, д. 47</p>
+			<p class="contacts__text"><span>Часы работы:</span> Пн-Пт: 9.00-21.00, Сб-Вс: 9.00-20.00</p>
+			<p class="contacts__text"><span>Метро:</span> Щёлковская</p>
+			<p class="contacts__text"><span>Тел.:</span> <a href="tel:84954670954">+7 (495) 467-09-54</a></p>
+			<p class="contacts__text"><span>E-mail:</span> <a href="mailto:media5551@rambler.ru" target="_blank">media5551@rambler.ru</a></p>
+		</div>
+		<div class="contacts__item">
+			<p class="contacts__name">Как проехать?</p>
+			<p class="contacts__text">От метро едет автобус <span>№627</span> или <span>№С7</span> до остановки "Детская стоматологическая поликлиника"</p>
+		</div>
+	</div>
+</div>
+<!-- /Контакты -->
+
+<!-- Подвал -->
+<div class="footer">
+	<div class="container clearfix">
+		<p class="footer__text">© 1988-2019, Дентомед Все права защищены</p>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about-us.html">О нас</a></li>
+			<li><a href="service.html">Услуги</a></li>
+			<li><a href="our-doctors.html">Врачи</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<a class="footer__to-up" href="#main-screen">Вверх</a>
+	</div>
+</div>
+<!-- /Подвал -->
+
+<!-- Чёрный фон при появление попапа -->
+<div class="bg"></div>
+<!-- /Чёрный фон при появление попапа -->
+
+<!-- Попап записаться на приём -->
+<div class="popup_make-appointment">
+	<p class="popup_make-appointment__name">Заполните форму,<br> чтобы записаться на приём</p>
+	<p class="popup_make-appointment__text">В течение 15 минут вам перезвонит администратор, чтобы ответить на вопросы и подобрать удобное для вас время приема.</p>
+	<form>
+		<div class="popup_make-appointment__item">
+			<p class="popup_make-appointment__name-input">Имя:</p>
+			<input class="popup_make-appointment__input-text" type="text" name="text" placeholder="Пациент" required="">
+		</div>
+		<div class="popup_make-appointment__item">
+			<p class="popup_make-appointment__name-input">Номер телефона:</p>
+			<input class="popup_make-appointment__input-text phone-mask" type="text" name="text" placeholder="+7(XXX)-XX-XX-XXX" required="">
+		</div>
+		<input class="popup_make-appointment__input-submit order-button" type="submit" name="submit" value="Отправить данные">
+		<p class="popup_make-appointment__info">Нажимая на кнопку, вы даете согласие на<br> обработку своих персональных данных</p>
+	</form>
+	<img class="popup_make-appointment__close" src="images/close.svg" alt="close">
+</div>
+<!-- /Попап записаться на приём -->
+
+<!-- Попап читать далее -->
+<div class="popup_read-more">
+	<div class="popup_read-more__wr-rate">
+		<div class="popup_read-more__rate"></div>
+	</div>
+	<div class="popup_read-more__wr-text">
+		<p class="popup_read-more__name">Валентина Б.</p>
+		<p class="popup_read-more__date">Дата посещения: 07.05.2018</p>
+		<p class="popup_read-more__text">Высокий профессионализм, ответственность за работу, культура, доброжелательное, внимательное отношение к пациенту -Главное в работе всей команды клиники.Здесь работают люди хорошо знающие и любящие свое дело-люди с добрым Сердцем и Золотыми руками!.Большое спасибо доктору Н.М.Федоровой, доктору Э.А.Алымову за работу с большой буквы!!! Спасибо руководству за уникальный подбор кадров-одна семья,одна команда! Удачи,здоровья,благополучия всем!!!</p>
+	</div>
+	<img class="popup_read-more__close" src="images/close.svg" alt="close">
+</div>
+<!-- /Попап читать далее -->
+
+<script>
+	$(document).ready(function(){
+		$('.choose-specialization__select-name').each(function(){
+			$(this).click(function(){
+				var section = $(this).data('section');
+				$('.main-service__wr-item').each(function(){
+					if ($(this).attr('id') != section) {
+						$(this).hide();
+					} else {
+						$(this).show();
+					}
+				})
+			})
+		})
+	});
+</script>
+</body>
+</html>

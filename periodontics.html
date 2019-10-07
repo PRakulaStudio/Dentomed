@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head id="main-screen">
+	<title>Стоматология</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Все виды стоматологических услуг на профессиональном уровне">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="images/logo-icon.png">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="js/slick.css" />
+	<link rel="stylesheet" type="text/css" href="js/slick-theme.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/maskedinput.js"></script>
+	<script src="js/main-scripts.js"></script>
+</head>
+<body>
+<!-- Шапка -->
+<div class="header">
+	<div class="container clearfix">
+		<a class="header__logo" href="index.html"></a>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about-us.html">О нас</a></li>
+			<li class="active"><a href="service.html">Услуги</a></li>
+			<li><a href="our-doctors.html">Врачи</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<div class="header__content-right">
+			<a class="header__number" href="tel:84954670954">+7 (495) 467-09-54</a>
+			<p class="header__time">График работы: Пн-Пт 09.00-21.00</p>
+			<p class="header__time">Сб-Вс 09.00-20.00</p>
+			<span class="header__menu"></span>
+		</div>
+	</div>
+</div>
+<!-- /Шапка -->
+
+<!-- Услуги -->
+<div class="main-service">
+	<div class="container">
+		<div class="wr-h2">
+			<h2 class="h2">Услуги</h2>
+			<p class="h2-dop">Услуги</p>
+		</div>
+		<div class="wr-crumbs">
+			<a href="index.html">Главная</a>
+			<p>Услуги</p>
+		</div>
+		<div class="wr-choose-specialization">
+			<p class="choose-specialization__text">Выбрать специализацию:</p>
+			<div class="choose-specialization">
+				<button class="choose-specialization__select-selected">Пародонт</button>
+				<ul class="choose-specialization__select-list">
+					<li class="choose-specialization__select-name"><a href="service.html">Все специализации</a></li>
+					<li class="choose-specialization__select-name" data-section="therapy"><a href="therapy.html">Терапевт</a></li>
+					<li class="choose-specialization__select-name" data-section="orthopedics"><a href="orthopedics.html">Ортопед</a></li>
+					<li class="choose-specialization__select-name" data-section="surgery"><a href="surgery.html">Хирург</a></li>
+					<li class="choose-specialization__select-name" data-section="implantation"><a href="implantation.html">Имплантолог</a></li>
+					<li class="choose-specialization__select-name active" data-section="periodontics"><a href="periodontics.html">Пародонт</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="periodontics" class="main-service__wr-item">
+			<p class="main-service__title">Пародонт</p>
+		</div>
+	</div>
+</div>
+<!-- /Услуги -->
+
+<!-- Рассчитать точную стоимость -->
+<div class="exact-cost exact-cost-dop">
+	<div class="container">
+		<p class="exact-cost__title">Хотите рассчитать точную<br> стоимость вашего лечения?</p>
+		<div class="exact-cost__wr-number">
+			<p class="exact-cost__wr-number-text">Звоните по телефону:</p>
+			<a class="exact-cost__wr-number-number" href="tel:84954670954">+7 (495) 467-09-54</a>
+		</div>
+		<form>
+			<p class="exact-cost__text">Или заполните форму, и мы сами свяжемся с вами в ближайшее время:</p>
+			<div class="exact-cost__wr-item">
+				<div class="exact-cost__item">
+					<p class="exact-cost__name-input">Имя:</p>
+					<input class="exact-cost__input-text" type="text" name="text" placeholder="Пациент" required="">
+				</div>
+				<div class="exact-cost__item">
+					<p class="exact-cost__name-input">Номер телефона:</p>
+					<input class="exact-cost__input-text phone-mask" type="text" name="text" placeholder="+7(XXX)-XX-XX-XXX" required="">
+				</div>
+			</div>
+			<input class="exact-cost__input-submit order-button" type="submit" name="submit" value="Отправить данные">
+			<p class="exact-cost__info">Нажимая на кнопку, вы даете согласие на<br> обработку своих персональных данных</p>
+		</form>
+	</div>
+</div>
+<!-- /Рассчитать точную стоимость -->
+
+<!-- Контакты -->
+<div class="contacts contacts-dop">
+	<div class="container">
+		<div class="wr-h2">
+			<h2 class="h2">Контакты</h2>
+			<p class="h2-dop">Контакты</p>
+		</div>
+	</div>
+	<div class="contacts__wr-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8966.648465215327!2d37.81422740686307!3d55.81646607780803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b534af4a20d82f%3A0x4af6c1ee48659ebc!2z0JHQsNC50LrQsNC70YzRgdC60LDRjyDRg9C7LiwgNDcsINCc0L7RgdC60LLQsCwgMTA3NTg5!5e0!3m2!1sru!2sru!4v1562927331229!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="container clearfix">
+		<div class="contacts__item">
+			<p class="contacts__name">Ул. Байкальская, д. 47</p>
+			<p class="contacts__text"><span>Часы работы:</span> Пн-Пт: 9.00-21.00, Сб-Вс: 9.00-20.00</p>
+			<p class="contacts__text"><span>Метро:</span> Щёлковская</p>
+			<p class="contacts__text"><span>Тел.:</span> <a href="tel:84954670954">+7 (495) 467-09-54</a></p>
+			<p class="contacts__text"><span>E-mail:</span> <a href="mailto:media5551@rambler.ru" target="_blank">media5551@rambler.ru</a></p>
+		</div>
+		<div class="contacts__item">
+			<p class="contacts__name">Как проехать?</p>
+			<p class="contacts__text">От метро едет автобус <span>№627</span> или <span>№С7</span> до остановки "Детская стоматологическая поликлиника"</p>
+		</div>
+	</div>
+</div>
+<!-- /Контакты -->
+
+<!-- Подвал -->
+<div class="footer">
+	<div class="container clearfix">
+		<p class="footer__text">© 1988-2019, Дентомед Все права защищены</p>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about-us.html">О нас</a></li>
+			<li><a href="service.html">Услуги</a></li>
+			<li><a href="our-doctors.html">Врачи</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<a class="footer__to-up" href="#main-screen">Вверх</a>
+	</div>
+</div>
+<!-- /Подвал -->
+
+<!-- Чёрный фон при появление попапа -->
+<div class="bg"></div>
+<!-- /Чёрный фон при появление попапа -->
+
+<!-- Попап записаться на приём -->
+<div class="popup_make-appointment">
+	<p class="popup_make-appointment__name">Заполните форму,<br> чтобы записаться на приём</p>
+	<p class="popup_make-appointment__text">В течение 15 минут вам перезвонит администратор, чтобы ответить на вопросы и подобрать удобное для вас время приема.</p>
+	<form>
+		<div class="popup_make-appointment__item">
+			<p class="popup_make-appointment__name-input">Имя:</p>
+			<input class="popup_make-appointment__input-text" type="text" name="text" placeholder="Пациент" required="">
+		</div>
+		<div class="popup_make-appointment__item">
+			<p class="popup_make-appointment__name-input">Номер телефона:</p>
+			<input class="popup_make-appointment__input-text phone-mask" type="text" name="text" placeholder="+7(XXX)-XX-XX-XXX" required="">
+		</div>
+		<input class="popup_make-appointment__input-submit order-button" type="submit" name="submit" value="Отправить данные">
+		<p class="popup_make-appointment__info">Нажимая на кнопку, вы даете согласие на<br> обработку своих персональных данных</p>
+	</form>
+	<img class="popup_make-appointment__close" src="images/close.svg" alt="close">
+</div>
+<!-- /Попап записаться на приём -->
+
+<!-- Попап читать далее -->
+<div class="popup_read-more">
+	<div class="popup_read-more__wr-rate">
+		<div class="popup_read-more__rate"></div>
+	</div>
+	<div class="popup_read-more__wr-text">
+		<p class="popup_read-more__name">Валентина Б.</p>
+		<p class="popup_read-more__date">Дата посещения: 07.05.2018</p>
+		<p class="popup_read-more__text">Высокий профессионализм, ответственность за работу, культура, доброжелательное, внимательное отношение к пациенту -Главное в работе всей команды клиники.Здесь работают люди хорошо знающие и любящие свое дело-люди с добрым Сердцем и Золотыми руками!.Большое спасибо доктору Н.М.Федоровой, доктору Э.А.Алымову за работу с большой буквы!!! Спасибо руководству за уникальный подбор кадров-одна семья,одна команда! Удачи,здоровья,благополучия всем!!!</p>
+	</div>
+	<img class="popup_read-more__close" src="images/close.svg" alt="close">
+</div>
+<!-- /Попап читать далее -->
+
+<script>
+	$(document).ready(function(){
+		$('.choose-specialization__select-name').each(function(){
+			$(this).click(function(){
+				var section = $(this).data('section');
+				$('.main-service__wr-item').each(function(){
+					if ($(this).attr('id') != section) {
+						$(this).hide();
+					} else {
+						$(this).show();
+					}
+				})
+			})
+		})
+	});
+</script>
+</body>
+</html>
