@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b710f1-54b3-4322-83a5-b0529490b884" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dentomed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dentomed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/doctors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/implantation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htmx" beforeDir="false" afterPath="$PROJECT_DIR$/index.htmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orthopedics.html" beforeDir="false" afterPath="$PROJECT_DIR$/orthopedics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-doctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-doctors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/periodontics.html" beforeDir="false" afterPath="$PROJECT_DIR$/periodontics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup-reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup-reviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surgery.html" beforeDir="false" afterPath="$PROJECT_DIR$/surgery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/therapy.html" beforeDir="false" afterPath="$PROJECT_DIR$/therapy.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570457585678</updated>
-      <workItem from="1570457589421" duration="987000" />
+      <workItem from="1570457589421" duration="5143000" />
     </task>
+    <task id="LOCAL-00001" summary="Version from production">
+      <created>1570458928901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570458928901</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +91,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Version from production" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version from production" />
   </component>
 </project>
