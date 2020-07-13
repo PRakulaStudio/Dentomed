@@ -10,6 +10,7 @@ $(document).ready(function(){
 	//попап "записаться на приём"
 	$('.sign-up').click(function(){
 		$('.popup_make-appointment, .bg').show();
+		ym(56780170,'reachGoal','formOpening');
 	});
 
 	$('.bg, .popup_make-appointment__close').click(function(){
