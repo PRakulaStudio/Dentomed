@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--- Слайдер ---*/
+
+@charset 'UTF-8';
+/* Slider */
+
+/*Убрать синие полоски*/
+.slick-slide:focus { outline: none; } 
+
+
+.slick-loading .slick-list{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+/* Arrows */
+.slick-prev,
+.slick-next{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    margin-top: 0px;
+    padding: 0;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:before,
+.slick-next:before{
+    font-family: 'slick';
+    font-size: 80px;
+
+    opacity: 1;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/*  Левая стрелка (slick-prev - её расположение) (.slick-prev:before - заливка или картинка стрелки)  */
+.slick-prev:before{
+    position: relative;
+    display: block;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url(../images/arrow-left.png) no-repeat right;
+} 
+/*  /Левая стрелка  */
+
+
+/*  правая стрелка (slick-next - её расположение) (slick-next:before - заливка или картинка стрелки)  */
+.slick-next:before{
+    position: relative;
+    display: block;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url(../images/arrow-right.png) no-repeat right;
+}
+/*  /правая стрелка  */
+
+
+
+/* Dots */
+.slick-slider{margin-bottom: 0;}
+
+.slick-dots{
+    position: absolute;
+    bottom: -45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 7px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button{
+    display: block;
+
+    font-size: 0;
+    line-height: 0;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before{
+    opacity: 1;
+}
+.slick-dots li button:before{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 30px;
+    height: 30px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: 1;
+    color: yellow;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*--- Конец слайдера ---*/
+
+
+
+
+@media screen and (max-width: 900px) {
+
+}

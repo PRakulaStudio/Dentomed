@@ -1,25 +1,287 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="54b710f1-54b3-4322-83a5-b0529490b884" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cherkizovskaya.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chistka_zubov.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elektrozavodskaya.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/implantatsia_zybov.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kak_proehat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrogorodok.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/fonts/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/about-clinic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/about-us1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/about-us2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/about-us3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/about-us4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/arrow-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/arrow-li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/arrow-to-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/big-star-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/big-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/certificate/big/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/certificate/small/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/close-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/crumbs-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/decor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/doctor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/education-certificates-arrow-dop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/education-certificates-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/exact-cost-dop-mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/exact-cost-dop-pred-mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/exact-cost-dop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/exact-cost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/big/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/big/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/big/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/big/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/big/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/small/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/small/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/small/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/small/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/federal-law/small/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/big/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/licenses/small/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/logo-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-about-us__photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-about-us__photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-about-us__photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-about-us__photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-screen1-mob.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-screen1-pred-mob.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-screen1-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/main-screen1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-not-foto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors-photo8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/our-doctors.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/popup-reviews-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/rate-dop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/rate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/service1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/service2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/service3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/service4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/images/year.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/fancybox/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/fancybox/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/jquery.maskedinput-1.2.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/main-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/maskedinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nashi-uslugi/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/fonts/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/about-clinic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/about-us1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/about-us2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/about-us3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/about-us4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/arrow-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/arrow-li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/arrow-to-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/big-star-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/big-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/certificate/big/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/certificate/small/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/close-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/crumbs-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/decor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/doctor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/education-certificates-arrow-dop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/education-certificates-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/exact-cost-dop-mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/exact-cost-dop-pred-mod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/exact-cost-dop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/exact-cost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/big/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/big/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/big/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/big/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/big/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/small/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/small/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/small/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/small/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/federal-law/small/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/big/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/licenses/small/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/logo-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-about-us__photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-about-us__photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-about-us__photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-about-us__photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-screen1-mob.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-screen1-pred-mob.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-screen1-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/main-screen1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-not-foto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors-photo8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/our-doctors.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/popup-reviews-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/rate-dop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/rate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/service1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/service2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/service3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/service4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/images/year.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/fancybox/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/fancybox/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/jquery.maskedinput-1.2.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/main-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/maskedinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o-nas/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/otbelivanie_zubov.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/partizanskaya.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pervomayskaya.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rokossovskogo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semenovskaya.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomatolog-na-dom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udalenie_zuba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dentomed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dentomed.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/doctors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/implantation.html" beforeDir="false" afterPath="$PROJECT_DIR$/implantation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.htmx" beforeDir="false" afterPath="$PROJECT_DIR$/index.htmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orthopedics.html" beforeDir="false" afterPath="$PROJECT_DIR$/orthopedics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htmx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/our-doctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-doctors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/periodontics.html" beforeDir="false" afterPath="$PROJECT_DIR$/periodontics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup-reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup-reviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surgery.html" beforeDir="false" afterPath="$PROJECT_DIR$/surgery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/therapy.html" beforeDir="false" afterPath="$PROJECT_DIR$/therapy.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +297,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="production" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +306,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -52,18 +319,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,7 +330,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570457585678</updated>
-      <workItem from="1570457589421" duration="6404000" />
+      <workItem from="1570457589421" duration="6540000" />
+      <workItem from="1570603829527" duration="2255000" />
+      <workItem from="1573066315759" duration="677000" />
+      <workItem from="1574777310166" duration="761000" />
+      <workItem from="1574944647252" duration="771000" />
+      <workItem from="1594640836642" duration="21000" />
+      <workItem from="1594641718788" duration="538000" />
     </task>
     <task id="LOCAL-00001" summary="Version from production">
       <created>1570458928901</created>
@@ -90,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570567218208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UX improvements">
+      <created>1570570480203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570570480203</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -106,12 +375,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Version from production" />
     <MESSAGE value="Form router required" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form router required" />
+    <MESSAGE value="UX improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="UX improvements" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="112" key="#Deployment" timestamp="1594641811531">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="112" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1594641811531" />
+    <state x="572" y="386" key="Github.Dialog.Accounts.Choose" timestamp="1594642211124">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="572" y="386" key="Github.Dialog.Accounts.Choose/0.0.1440.900@0.0.1440.900" timestamp="1594642211124" />
+    <state x="504" y="156" key="RollbackChangesDialog" timestamp="1594642144072">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="504" y="156" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1594642144072" />
+    <state x="627" y="184" key="ftp.server.browser" timestamp="1594641800661">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="627" y="184" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1594641800661" />
+    <state x="593" y="359" key="publish.login" timestamp="1594641761871">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="593" y="359" key="publish.login/0.0.1440.900@0.0.1440.900" timestamp="1594641761871" />
   </component>
 </project>
